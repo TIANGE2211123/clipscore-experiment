@@ -1,0 +1,752 @@
+{
+  "000017": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000021": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000022": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000042": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000046": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during nighttime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during nighttime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during nighttime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000047": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 46.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000048": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000051": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during nighttime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000054": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000059": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000065": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000096": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000100": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000108": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 36.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000110": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000113": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000159": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000160": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000173": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000176": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000177": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000182": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000191": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000192": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000202": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000205": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000215": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000229": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000247": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000254": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000255": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000257": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 49.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000275": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000288": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000289": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 41.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000304": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000307": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000318": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000325": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000329": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 40.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000368": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000373": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000377": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000383": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during nighttime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000467": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000470": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000477": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000492": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during nighttime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during nighttime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during nighttime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000500": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000501": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000505": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during nighttime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000509": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during nighttime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during nighttime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during nighttime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 48.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000525": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000539": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000587": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000592": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during nighttime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 43.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000601": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000602": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000613": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 41.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000620": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 49.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000622": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 46.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000630": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000631": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000639": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000643": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 41.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000677": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000678": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 48.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000691": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000692": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000699": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000701": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during nighttime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during nighttime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during nighttime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000702": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000703": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000720": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000740": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000752": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000753": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000759": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000761": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000777": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000780": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000783": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000804": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000805": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000807": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000813": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000825": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000828": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000833": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000834": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000842": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000851": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000861": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000877": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000896": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000923": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000933": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000947": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000965": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000970": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 48.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000977": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 43.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "000983": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001019": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 41.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001028": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during nighttime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during nighttime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during nighttime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001033": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001052": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during nighttime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 40.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001074": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001079": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001117": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001120": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001160": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a rear-end collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001161": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under snowy conditions with reduced visibility.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001175": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 47.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001177": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001191": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 43.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001192": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001201": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001202": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001205": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001223": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001254": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a multi-lane road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001263": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 41.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001265": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 36.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001270": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 46.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001278": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001283": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001286": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a head-on collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001288": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 45.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001292": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 30.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001306": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001308": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001319": {
+    "safe": "[0s: Dashcam shows vehicle driving on a rural road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a residential street during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001327": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under rainy weather with wet roads.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 40.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001328": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 31.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001332": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a suburban avenue during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001340": {
+    "safe": "[0s: Dashcam shows vehicle driving on a two-lane highway during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a side-swipe collision near frame 32.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001352": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during nighttime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during nighttime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a two-lane highway during nighttime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001353": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a side-swipe collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001356": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under rainy weather with wet roads. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under rainy weather with wet roads.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under rainy weather with wet roads. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 34.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001369": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 39.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001372": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a head-on collision near frame 38.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001380": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001388": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a multi-lane road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a rear-end collision near frame 42.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001398": {
+    "safe": "[0s: Dashcam shows vehicle driving on a multi-lane road during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a busy intersection during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a suburban avenue during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a multi-vehicle pileup near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001416": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 46.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001445": {
+    "safe": "[0s: Dashcam shows vehicle driving on a downtown street during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a highway on-ramp during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a busy intersection during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 33.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001449": {
+    "safe": "[0s: Dashcam shows vehicle driving on a highway on-ramp during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a two-lane highway during daytime under clear weather.] [2s: A nearby vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a downtown street during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle witnesses a T-bone collision near frame 37.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001473": {
+    "safe": "[0s: Dashcam shows vehicle driving on a busy intersection during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a highway on-ramp during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 44.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001478": {
+    "safe": "[0s: Dashcam shows vehicle driving on a residential street during daytime under snowy conditions with reduced visibility. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a downtown street during daytime under snowy conditions with reduced visibility.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a residential street during daytime under snowy conditions with reduced visibility. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a multi-vehicle pileup near frame 49.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  },
+  "001495": {
+    "safe": "[0s: Dashcam shows vehicle driving on a suburban avenue during daytime under clear weather. Traffic flows smoothly.] [2s: The vehicle maintains safe following distance. Other vehicles move predictably.] [4s: Journey continues without incident. All traffic signals obeyed and road remains clear.]",
+    "near_crash": "[0s: A vehicle suddenly swerves into the lane on a rural road during daytime under clear weather.] [2s: The ego vehicle brakes hard and veers to avoid collision. The other vehicle corrects course just in time.] [4s: Both vehicles stabilize. A close call but no actual contact. Traffic resumes normally.]",
+    "crash": "[0s: Dashcam records driving on a rural road during daytime under clear weather. Traffic appears normal.] [2s: A vehicle suddenly appears. The ego vehicle is involved in a T-bone collision near frame 35.] [4s: The collision occurs with visible impact. Debris scatters across the road.]"
+  }
+}

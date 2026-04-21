@@ -1,269 +1,275 @@
-# 视频CLIP相似度评估工具
+# ClipScore Experiment: Label Bias Testing
 
-这是一个用于评估视频与文本描述之间CLIP相似度的Python工具集，包含两个主要组件：改进的视频CLIP评估器和快速测试脚本。
+[![GitHub](https://img.shields.io/badge/github-clipscore--experiment-blue)](https://github.com/TIANGE2211123/clipscore-experiment)
+[![Python](https://img.shields.io/badge/python-3.9+-green.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-## 项目概述
+> **Research Question:** Does label mention in text descriptions create spurious correlations in video-text similarity metrics?
 
-本项目提供了完整的视频-文本相似度评估解决方案，支持：
-- 视频帧提取和预处理
-- CLIP模型相似度计算
-- 时间一致性分析
-- 批量评估和单场景测试
-- 结果可视化和导出
+This project evaluates how **text prompt bias** affects video-text alignment scores (ClipScore) across three traffic safety datasets.
 
-## 文件结构
+---
 
-```
-├── video_clip_evaluator.py    # 核心评估器类
-├── quick_clip_test.py         # 快速测试脚本
-├── requirements.txt # 依赖包列表
-└── README.md                  # 本文档
-```
+## 🎯 Project Overview
 
-## 核心组件
+We test whether adding safety-related labels (`safe`, `near-crash`, `crash`) to video descriptions artificially inflates or deflates similarity scores, even when the video content remains unchanged.
 
-### 1. ImprovedVideoCLIPEvaluator (`video_clip_evaluator.py`)
+### Datasets
 
-主要的CLIP评估器类，提供以下功能：
+| Dataset | Size | Source | Purpose |
+|---------|------|--------|---------|
+| **Crash-1500** | 1500 videos | Internal | Baseline dataset |
+| **Euro NCAP** | 100 videos | YouTube (official crash tests) | Controlled test environment |
+| **V2X-Seq-SPD** | 100 videos | Google Drive (DAIR-V2X) | Real-world Chinese traffic |
 
-#### 主要方法
+---
 
-- **`__init__(device, model_name)`**: 初始化评估器
-- **`extract_frames_from_video(video_path, max_frames, frame_interval)`**: 从视频中提取帧
-- **`calculate_clip_score(video_path, text_prompt, max_frames, frame_interval)`**: 计算CLIP相似度分数
-- **`calculate_temporal_consistency(video_path, max_frames, frame_interval)`**: 计算时间一致性
-- **`batch_calculate_clip_scores(video_text_pairs, max_frames, frame_interval)`**: 批量计算
+## 🚀 Quick Start
 
-#### 特性
-
-- 支持多种视频格式 (MP4, AVI, MOV, MKV, WMV)
-- 自动设备检测 (CUDA/CPU)
-- 标准化的CLIP特征提取和相似度计算
-- 时间一致性分析
-- 错误处理和日志记录
-
-### 2. QuickTester (`quick_clip_test.py`)
-
-快速测试工具，提供交互式和命令行两种使用方式：
-
-#### 主要功能
-
-- **单场景测试**: 测试指定场景的所有视频类型
-- **单视频测试**: 测试单个视频文件
-- **场景列表**: 列出可用的测试场景
-- **交互模式**: 用户友好的交互界面
-
-#### 测试模式
-
-1. **场景测试**: 评估一个场景的safe、near-crash、crash三种视频类型
-2. **单视频测试**: 评估单个视频与文本描述的匹配度
-3. **场景列表**: 查看可用的测试场景
-
-## 安装和配置
-
-### 环境要求
-
-- Python 3.7+
-- PyTorch
-- OpenCV
-- Transformers
-- PIL/Pillow
-- NumPy
-- Matplotlib
-- tqdm
-
-### 安装依赖
+### Installation
 
 ```bash
+# Clone repository
+git clone https://github.com/TIANGE2211123/clipscore-experiment.git
+cd clipscore-experiment
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 依赖包列表
-
-```
-torch>=1.9.0
-torchvision>=0.10.0
-transformers>=4.20.0
-opencv-python>=4.5.0
-Pillow>=8.0.0
-numpy>=1.21.0
-matplotlib>=3.3.0
-tqdm>=4.60.0
-```
-
-## 使用方法
-
-### 1. 命令行使用
-
-#### 快速测试脚本
-
-   ```bash
-# 测试单个视频
-python quick_clip_test.py video --video-path "test_data/001376/crash.mp4" --text-prompt "A car on a wet highway is unable to stop in time and T-bones a vehicle that merges directly into its path, causing a high-speed collision."
-python quick_clip_test.py video --video-path "test_data/001376/safe.mp4" --text-prompt "A car drives cautiously on a wet highway, maintaining a safe following distance as a white vehicle merges smoothly into the lane ahead."
-python quick_clip_test.py video --video-path "test_data/001376/near-crash.mp4" --text-prompt "A car is forced to brake suddenly on a wet highway as another vehicle swerves into its lane with little warning, narrowly avoiding a side-swipe."
-   ```
-
-#### 批量评估当前数据集
-
-从项目根目录运行：
+### Run Full Pipeline (3 Datasets)
 
 ```bash
-MPLCONFIGDIR=/tmp/matplotlib python3 code/video_clip_evaluator.py \
-  --test_data_dir test_data \
-  --description_file test_data/description.txt \
-  --max_frames 73 \
-  --frame_interval 1 \
-  --output_dir output/metrics \
-  --device cpu \
-  --local_files_only
+# Generate manifests + descriptions for all datasets
+./scripts/orchestrate_full_pipeline.sh
+
+# Or process individual datasets
+python3 scripts/export_euroncap_channel_manifest.py \
+    --output-dir test_data/euroncap_source \
+    --max-entries 120 --sample-size 100
+
+python3 scripts/generate_dataset_descriptions.py \
+    --input-csv test_data/euroncap_source/euroncap_candidates.csv \
+    --output-json test_data/euroncap_source/classified_descriptions.json \
+    --output-csv test_data/euroncap_source/classified_descriptions.csv \
+    --dataset-name euroncap --seed 42
 ```
 
-说明：
+---
 
-- 脚本会自动发现 `test_data/` 下的数字场景目录，不再要求手动维护 `1376` 或 `001376` 两种编号。
-- 当本地已经缓存 Hugging Face CLIP 模型时，`--local_files_only` 会直接从本地快照加载，避免重复联网请求。
-- 结果会同时输出到 `output/metrics/clip_evaluation_results.json` 和 `output/metrics/clip_evaluation_results.csv`。
+## 📁 Repository Structure
 
-
-### 2. 编程接口使用
-
-#### 基本使用示例
-
-```python
-from video_clip_evaluator import ImprovedVideoCLIPEvaluator
-
-# 初始化评估器
-evaluator = ImprovedVideoCLIPEvaluator(
-    device="cuda",  # 或 "cpu"
-    model_name="openai/clip-vit-base-patch32"
-)
-
-# 计算CLIP分数
-result = evaluator.calculate_clip_score(
-    video_path="path/to/video.mp4",
-    text_prompt="车辆在道路上正常行驶",
-    max_frames=30,
-    frame_interval=1
-)
-
-print(f"CLIP分数: {result['mean_score']:.4f}")
-print(f"分数范围: [{result['min_score']:.4f}, {result['max_score']:.4f}]")
+```
+clipscore-experiment/
+├── README.md                    # This file
+├── CLAUDE.md                    # Complete experiment workflow guide
+├── requirements.txt             # Python dependencies
+│
+├── scripts/                     # Pipeline automation scripts
+│   ├── export_euroncap_channel_manifest.py       # Euro NCAP adapter
+│   ├── build_v2x_seq_proxy_manifest.py           # V2X-Seq adapter
+│   ├── generate_dataset_descriptions.py          # 3-type descriptions
+│   ├── prepare_framepack_queue_bundle.py         # Queue bundle prep
+│   └── orchestrate_full_pipeline.sh              # Full automation
+│
+├── test_data/                   # Dataset storage
+│   ├── euroncap_source/         # Euro NCAP (100 samples)
+│   │   ├── euroncap_candidates.csv
+│   │   └── classified_descriptions.json
+│   └── v2x_seq_proxy_source/    # V2X-Seq-SPD (100 samples)
+│
+├── docs/                        # Documentation
+│   ├── PIPELINE_GUIDE.md        # Technical implementation
+│   ├── QUICKSTART.md            # Quick reference
+│   └── STATUS.md                # Progress tracker
+│
+├── code/                        # Legacy ClipScore evaluator
+└── output/                      # Experiment results
 ```
 
-#### 批量评估示例
+---
 
-```python
-# 准备视频-文本对
-video_text_pairs = [
-    ("video1.mp4", "安全驾驶场景"),
-    ("video2.mp4", "接近碰撞场景"),
-    ("video3.mp4", "碰撞场景")
-]
+## 📊 Experiment Workflow
 
-# 批量计算
-results = evaluator.batch_calculate_clip_scores(
-    video_text_pairs,
-    max_frames=30,
-    frame_interval=1
-)
+### Stage 1: Data Preparation
 
-# 处理结果
-for result in results:
-    print(f"视频: {result['video_path']}")
-    print(f"CLIP分数: {result['mean_score']:.4f}")
-```
+For each dataset, generate:
+1. **Candidate manifests** (video metadata)
+2. **Three description types per video:**
+   - **Objective:** Pure observational (no label hints)
+   - **Interpretive:** Contextual cues (subtle hints)
+   - **Label-biased:** Explicit label mention
 
-### 3. 交互模式使用
+**Example Descriptions for Same Video:**
+- **Objective:** "Traffic moves smoothly as vehicles maintain spacing"
+- **Interpretive:** "A hazardous interaction develops as a vehicle intrudes into the path"
+- **Label-biased:** "The conflict escalates rapidly and a crash develops"
 
-运行交互模式：
+### Stage 2: ClipScore Inference (GPU)
+
+Compute video-text similarity scores using CLIP:
+- Extract first + last frame from each video
+- Calculate ClipScore for all description types
+- Compare scores across label variations
+
+### Stage 3: Statistical Analysis
+
+Test hypothesis:
+- **H1:** Label matching increases scores (spurious correlation)
+- **H0:** Scores remain stable across description types
+
+Metrics:
+- Within-video score variance
+- Cross-label score differences
+- Dataset generalization consistency
+
+---
+
+## 🔬 Current Status
+
+### ✅ Completed
+- [x] Euro NCAP: 100 candidates extracted
+- [x] Euro NCAP: 300 descriptions generated (3 types × 100 videos)
+- [x] Pipeline scripts validated end-to-end
+- [x] GitHub repository published
+
+### ⏳ In Progress
+- [ ] Euro NCAP: Video downloads (in progress on AutoDL)
+- [ ] V2X-Seq-SPD: Source data download
+- [ ] Queue bundle preparation
+
+### 📅 Next Steps
+1. Complete video downloads on AutoDL
+2. Run ClipScore inference on GPU
+3. Statistical analysis and visualization
+4. Write final report
+
+---
+
+## 📖 Documentation
+
+| Document | Purpose |
+|----------|---------|
+| **[CLAUDE.md](CLAUDE.md)** | Complete experiment workflow (3 datasets) |
+| **[docs/PIPELINE_GUIDE.md](docs/PIPELINE_GUIDE.md)** | Technical implementation details |
+| **[docs/QUICKSTART.md](docs/QUICKSTART.md)** | Quick reference commands |
+| **[docs/STATUS.md](docs/STATUS.md)** | Detailed progress tracker |
+
+---
+
+## 🛠️ Key Scripts
+
+### Data Preparation
 
 ```bash
-python quick_clip_test.py
+# Euro NCAP: Extract 100 crash test videos from YouTube
+python3 scripts/export_euroncap_channel_manifest.py \
+    --output-dir test_data/euroncap_source \
+    --max-entries 120 --sample-size 100 \
+    --download --download-dir test_data/euroncap_source/videos
+
+# V2X-Seq-SPD: Sample 100 sequences from official dataset
+python3 scripts/build_v2x_seq_proxy_manifest.py \
+    --metadata-zip test_data/dair_v2x_seq_example/V2X-Seq-SPD-Example.zip \
+    --output-dir test_data/v2x_seq_proxy_source \
+    --sample-size 100 --seed 42
+
+# Generate 3-type descriptions for any dataset
+python3 scripts/generate_dataset_descriptions.py \
+    --input-csv test_data/{dataset}_source/{dataset}_candidates.csv \
+    --output-json test_data/{dataset}_source/classified_descriptions.json \
+    --output-csv test_data/{dataset}_source/classified_descriptions.csv \
+    --dataset-name {dataset} --seed 42
 ```
 
-按照提示选择：
-1. 测试单个场景
-2. 测试单个视频文件
-3. 列出可用场景
-4. 退出
+### Queue Bundle Preparation
 
-## 数据格式
-
-### 场景描述文件格式
-
-场景描述文件 (`description.txt`) 应包含以下格式：
-
-```
-1376
-Safe: 车辆在道路上正常行驶，没有异常情况
-Near-Crash: 车辆接近碰撞，但最终避免了事故
-Crash: 车辆发生碰撞事故
-
-1377
-Safe: 车辆安全通过交叉路口
-Near-Crash: 车辆在交叉路口险些发生碰撞
-Crash: 车辆在交叉路口发生碰撞
+```bash
+python3 scripts/prepare_framepack_queue_bundle.py \
+    --manifest-csv test_data/euroncap_source/euroncap_candidates.csv \
+    --descriptions-json test_data/euroncap_source/classified_descriptions.json \
+    --video-dir test_data/euroncap_source/videos \
+    --output-dir test_data/euroncap_source \
+    --dataset-name euroncap
 ```
 
-### 视频文件组织
+---
 
-测试数据应按以下结构组织：
+## 🖥️ AutoDL Execution
 
+### Setup on AutoDL
+
+```bash
+# Clone from GitHub
+git clone https://github.com/TIANGE2211123/clipscore-experiment.git
+cd clipscore-experiment
+
+# Install dependencies
+/root/miniconda3/bin/pip install -r requirements.txt
+
+# Download videos and prepare queue bundles
+bash scripts/download_and_bundle_on_remote.sh
 ```
-test_data/
-├── description.txt
-├── 1376/
-│   ├── safe.mp4
-│   ├── near-crash.mp4
-│   └── crash.mp4
-├── 1377/
-│   ├── safe.mp4
-│   ├── near-crash.mp4
-│   └── crash.mp4
-└── ...
+
+### Monitor Progress
+
+```bash
+# From local machine
+bash check_autodl_progress.sh
 ```
 
-## 输出结果
+---
 
-### CLIP分数结果
+## 📈 Expected Results
 
-```python
-{
-    'mean_score': 0.3245,      # 平均CLIP分数
-    'std_score': 0.0234,       # 分数标准差
-    'max_score': 0.3891,       # 最高分数
-    'min_score': 0.2678,       # 最低分数
-    'frame_scores': [...],     # 逐帧分数列表
-    'num_frames': 30,          # 处理帧数
-    'video_path': '...',       # 视频路径
-    'text_prompt': '...'       # 文本提示
+### Hypothesis
+**Label bias exists:** Videos paired with matching-label descriptions will show higher ClipScore than mismatched labels, even when video content is identical.
+
+### Success Criteria
+1. Significant score variance across description types (p < 0.05)
+2. Directional bias: Crash videos + "safe" descriptions → lower scores
+3. Cross-dataset consistency: Pattern holds across all 3 datasets
+
+---
+
+## 🤝 Contributing
+
+This is a research project. For questions or collaboration:
+- **GitHub Issues:** [Report bugs or request features](https://github.com/TIANGE2211123/clipscore-experiment/issues)
+- **Researcher:** TIANGE
+
+---
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) file for details
+
+---
+
+## 🔗 References
+
+- **Euro NCAP Official Channel:** https://www.youtube.com/channel/UCNEWZqjcguqWZOG8yZZpIFg
+- **V2X-Seq-SPD Paper:** [arXiv:2305.02647](https://arxiv.org/abs/2305.02647)
+- **V2X-Seq-SPD Dataset:** [Google Drive](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6)
+- **ClipScore Paper:** [arXiv:2104.08718](https://arxiv.org/abs/2104.08718)
+
+---
+
+## 🏷️ Citation
+
+If you use this pipeline or datasets in your research, please cite:
+
+```bibtex
+@misc{clipscore-experiment-2026,
+  author = {TIANGE},
+  title = {ClipScore Label Bias Testing: A Multi-Dataset Evaluation},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/TIANGE2211123/clipscore-experiment}
 }
 ```
 
-### 时间一致性结果
+---
 
-```python
-{
-    'mean_temporal_score': 0.9123,  # 平均时间一致性
-    'std_temporal_score': 0.0156,   # 时间一致性标准差
-    'temporal_scores': [...],       # 相邻帧相似度列表
-    'num_pairs': 29                 # 相邻帧对数
-}
-```
-
-## 参数说明
-
-### 主要参数
-
-- **`max_frames`**: 每个视频最大处理帧数 (默认: 30)
-- **`frame_interval`**: 帧间隔，每隔几帧取一帧 (默认: 1)
-- **`device`**: 计算设备 ("cuda" 或 "cpu")
-- **`model_name`**: CLIP模型名称 (默认: "openai/clip-vit-base-patch32")
-
-### 支持的CLIP模型
-
-- `openai/clip-vit-base-patch32` (默认)
-- `openai/clip-vit-base-patch16`
-- `openai/clip-vit-large-patch14`
-- `openai/clip-vit-large-patch14-336`
+**Last Updated:** 2026-04-21
+**Status:** Active Development

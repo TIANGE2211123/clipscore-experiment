@@ -12,30 +12,40 @@ dist/
 build/
 
 # Data and outputs
-test_data/*/videos/
+test_data/*/videos/*.mp4
 test_data/*/queue_images/
+output/*/videos/
+output/*/queue_images/
 *.mp4
 *.avi
 *.mov
+test/
 
-# Logs
+# Logs and temporary execution files
 *.log
-download_log.txt
+*.txt
+!requirements.txt
 autodl_*.log
+download_*.log
+nohup.out
 
-# AutoDL config (contains password)
+# Sensitive config files
 .autodl_config
+*.env
+credentials.json
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # Jupyter
 .ipynb_checkpoints/
@@ -44,11 +54,21 @@ autodl_*.log
 tmp/
 temp/
 *.tmp
+*.bak
 
 # Large files
 *.zip
 *.tar.gz
+
+# Keep important CSV files
 *.csv
 !*_candidates.csv
 !classified_descriptions.csv
 !job_manifest.csv
+!*_results.csv
+
+# Keep specific directories structure
+!test_data/
+!output/
+!scripts/
+!docs/
