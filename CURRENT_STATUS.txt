@@ -1,0 +1,82 @@
+=================================================================
+ClipScore Dataset Pipeline - Automated Run Complete
+Date: $(date +"%Y-%m-%d %H:%M:%S")
+=================================================================
+
+✅ EURO NCAP DATASET (100/100 COMPLETE)
+─────────────────────────────────────────────────────────────
+
+Stage 1 - Candidate Manifest:
+  ✓ File: test_data/euroncap_source/euroncap_candidates.csv
+  ✓ Samples: $(tail -n +2 test_data/euroncap_source/euroncap_candidates.csv | wc -l | xargs)
+  ✓ Source: YouTube official channel (UCNEWZqjcguqWZOG8yZZpIFg)
+
+Stage 2 - Classified Descriptions:
+  ✓ CSV: test_data/euroncap_source/classified_descriptions.csv
+  ✓ JSON: test_data/euroncap_source/classified_descriptions.json
+  ✓ Types: safe / near_crash / crash (3 per video)
+  ✓ Total descriptions: $(tail -n +2 test_data/euroncap_source/classified_descriptions.csv | wc -l | xargs) × 3 = 300
+
+Stage 3 - Queue Bundle:
+  ⏸️  BLOCKED: Requires video files
+  → Videos can be downloaded locally or on AutoDL
+
+
+⏳ V2X-SEQ-SPD DATASET (0/100 PENDING)
+─────────────────────────────────────────────────────────────
+
+Status: BLOCKED - Waiting for source data
+Required: test_data/dair_v2x_seq_example/V2X-Seq-SPD-Example.zip
+Source: https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6
+
+Once downloaded, auto-run:
+  ./scripts/orchestrate_pipeline_no_videos.sh
+
+
+📁 OUTPUT FILES
+─────────────────────────────────────────────────────────────
+
+test_data/euroncap_source/
+├── euroncap_candidates.csv           ✅ (100 samples)
+├── classified_descriptions.csv       ✅ (100 samples)
+└── classified_descriptions.json      ✅ (100 samples)
+
+
+🚀 NEXT ACTIONS
+─────────────────────────────────────────────────────────────
+
+Option A - Download Euro NCAP videos NOW:
+  python3 scripts/export_euroncap_channel_manifest.py \\
+      --output-dir test_data/euroncap_source \\
+      --max-entries 120 --sample-size 100 \\
+      --download --download-dir test_data/euroncap_source/videos
+
+  Then run queue bundle:
+  python3 scripts/prepare_framepack_queue_bundle.py \\
+      --manifest-csv test_data/euroncap_source/euroncap_candidates.csv \\
+      --descriptions-json test_data/euroncap_source/classified_descriptions.json \\
+      --video-dir test_data/euroncap_source/videos \\
+      --output-dir test_data/euroncap_source \\
+      --dataset-name euroncap
+
+Option B - Transfer descriptions to AutoDL first:
+  rsync -avz test_data/euroncap_source/*.csv \\
+             test_data/euroncap_source/*.json \\
+             autodl:/workspace/euroncap_source/
+
+  Then download videos and run queue bundle on AutoDL
+
+
+✅ AUTOMATION COMPLETE
+─────────────────────────────────────────────────────────────
+
+Ready files:
+- Euro NCAP candidates manifest (100 samples)
+- Euro NCAP descriptions (300 descriptions = 100 × 3 types)
+
+Pending:
+- V2X-Seq-SPD source download
+- Video downloads (both datasets)
+- Queue bundle generation (requires videos)
+
+═════════════════════════════════════════════════════════════

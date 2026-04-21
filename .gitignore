@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data and outputs
+test_data/*/videos/
+test_data/*/queue_images/
+*.mp4
+*.avi
+*.mov
+
+# Logs
+*.log
+download_log.txt
+autodl_*.log
+
+# AutoDL config (contains password)
+.autodl_config
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large files
+*.zip
+*.tar.gz
+*.csv
+!*_candidates.csv
+!classified_descriptions.csv
+!job_manifest.csv
