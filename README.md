@@ -70,7 +70,17 @@ clipscore-experiment/
 │   ├── build_v2x_seq_proxy_manifest.py           # V2X-Seq adapter
 │   ├── generate_dataset_descriptions.py          # 3-type descriptions
 │   ├── prepare_framepack_queue_bundle.py         # Queue bundle prep
-│   └── orchestrate_full_pipeline.sh              # Full automation
+│   ├── orchestrate_full_pipeline.sh              # Full automation
+│   ├── stage3/                                   # Crash-1500 analysis scripts
+│   │   ├── stage3_label_bias_analysis.py         #   mean-level stats + 5 figs
+│   │   └── stage3b_frame_level_analysis.py       #   per-frame stats + 4 figs
+│   └── stage4/                                   # Euro NCAP generative experiment
+│       ├── extract_frames.py                     #   keyframes from source videos
+│       ├── describe_with_gemini.py               #   VLM-grounded descriptions
+│       ├── build_prompts.py                      #   P_label + P_scenario prompt sets
+│       ├── generate_all_videos.sh                #   Veo generation driver
+│       ├── clipscore_on_generated.py             #   ViT-L/14 CLIPScore inference
+│       └── analyze_label_bias.py                 #   Findings + 3 figures
 │
 ├── test_data/                   # Dataset storage
 │   ├── euroncap_source/         # Euro NCAP (100 samples)
@@ -85,6 +95,18 @@ clipscore-experiment/
 │
 ├── code/                        # Legacy ClipScore evaluator
 └── output/                      # Experiment results
+    ├── crash1500_150/           #   stage-1/2 for Crash-1500 (150-video subset)
+    ├── euroncap_100/            #   stage-1/2 for Euro NCAP (100 videos)
+    ├── metrics/                 #   Crash-1500 stage-2 CLIPScores (8 × 3 × 73)
+    ├── stage3/                  #   Crash-1500 label-bias analysis (NEW)
+    │   ├── REPORT.md            #     findings + figures
+    │   ├── figs 1-5             #     mean-level plots
+    │   └── frame_level/         #     per-frame stats + figs 6-9
+    └── stage4/                  #   Euro NCAP generative experiment (NEW)
+        ├── REPORT.md            #     findings + figures
+        ├── prompts/             #     Gemini descriptions + P_label/P_scenario sets
+        ├── clipscore/           #     per-video ViT-L/14 scores on generated clips
+        └── figures/             #     figs 10-12 (token bias, own-score, confusion)
 ```
 
 ---
@@ -128,21 +150,38 @@ Metrics:
 ## 🔬 Current Status
 
 ### ✅ Completed
-- [x] Euro NCAP: 100 candidates extracted
-- [x] Euro NCAP: 300 descriptions generated (3 types × 100 videos)
+- [x] Euro NCAP: 100 candidates extracted, 300 template descriptions generated
+- [x] Crash-1500: stage-2 CLIPScores for 8 videos × 3 label conditions (73 frames/video)
+- [x] **Stage 3 (Crash-1500 label-bias):** mean-level + frame-level statistics → [output/stage3/REPORT.md](output/stage3/REPORT.md)
+- [x] **Stage 4 (Euro NCAP generative):** VLM-grounded descriptions → Veo video generation → ViT-L/14 CLIPScores → label-bias findings → [output/stage4/REPORT.md](output/stage4/REPORT.md)
 - [x] Pipeline scripts validated end-to-end
 - [x] GitHub repository published
 
 ### ⏳ In Progress
-- [ ] Euro NCAP: Video downloads (in progress on AutoDL)
-- [ ] V2X-Seq-SPD: Source data download
-- [ ] Queue bundle preparation
+- [ ] V2X-Seq-SPD: Source data download and description generation
 
 ### 📅 Next Steps
-1. Complete video downloads on AutoDL
-2. Run ClipScore inference on GPU
-3. Statistical analysis and visualization
-4. Write final report
+1. Extend Stage 3 analysis to all 150 Crash-1500 videos (scripts ready, needs GPU inference)
+2. Repeat Stage 4 protocol on V2X-Seq-SPD once source is available
+3. Cross-dataset synthesis and final paper draft
+
+---
+
+## 📊 Results
+
+Two end-to-end studies are complete. Both reports live in `output/` and are fully reproducible from the scripts in `scripts/stage3/` and `scripts/stage4/`.
+
+### Stage 3 — Crash-1500 label-bias (discriminative)
+
+- **Setup:** same 8 dash-cam videos, 3 prompts per video differing only in the label word (`safe` / `near-crash` / `crash`); 73 frames/video = 1,752 frame scores.
+- **Finding:** every one of the 24 per-video frame-level paired t-tests rejects H0 (most p < 10⁻¹⁵). Mean Δ for `near-crash − safe` is **+1.97** on a ~20–32 scale. Trajectory correlations between label conditions are weak (median r ≈ +0.3) — CLIP is not just offsetting the score, it's re-ranking frames.
+- **Report:** [`output/stage3/REPORT.md`](output/stage3/REPORT.md). Figures 1-5 (mean-level) + 6-9 (per-frame).
+
+### Stage 4 — Euro NCAP generative (counterfactual)
+
+- **Setup:** 10 real Euro NCAP YouTube clips → 8 keyframes each → Gemini grounded descriptions (safe/near-crash/crash scenario narratives) → Veo-3 video generation from *two* prompt families (`P_label` label-templated, `P_scenario` VLM-grounded) → ViT-L/14 CLIPScores between generated clips and all 6 descriptions.
+- **Finding:** inserting a label token alone shifts ClipScore by Δ ≈ +0.8 pts on average (p < 0.01, paired across videos); own-label bias: the crash-conditioned generated video is scored **higher** by its own prompt than by a factually identical competitor prompt. Veo filter rate was 22% (13/60) and skewed against crash-conditioned prompts — a finding of independent interest.
+- **Report:** [`output/stage4/REPORT.md`](output/stage4/REPORT.md). Figures 10-12 (token bias, own-score, token confusion).
 
 ---
 

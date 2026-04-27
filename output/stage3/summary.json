@@ -1,0 +1,86 @@
+{
+  "source_csv": "/home/node/a0/workspace/c75b3f37-f56e-4c49-ba65-ffbe4b0acf78/workspace/clipscore-experiment/output/metrics/clip_evaluation_results.csv",
+  "n_videos_analyzed": 8,
+  "labels": [
+    "safe",
+    "near-crash",
+    "crash"
+  ],
+  "within_video_variance": {
+    "n_videos": 8,
+    "mean_range": 3.1108750000000005,
+    "median_range": 2.6690000000000005,
+    "max_range": 5.032,
+    "min_range": 1.4350000000000023,
+    "mean_sd": 1.6025486518654506,
+    "median_sd": 1.3454177912327023
+  },
+  "paired_tests": [
+    {
+      "pair": "near-crash - safe",
+      "n": 8,
+      "mean_diff": 1.9713750000000005,
+      "sd_diff": 2.239647481030378,
+      "t_stat": 2.489628644808541,
+      "t_p": 0.041619191546799224,
+      "wilcoxon_stat": 5.0,
+      "wilcoxon_p": 0.078125,
+      "cohens_d": 0.8802166486901969,
+      "b_higher_count": 6,
+      "a_higher_count": 2,
+      "ties": 0
+    },
+    {
+      "pair": "crash - safe",
+      "n": 8,
+      "mean_diff": 0.9281250000000001,
+      "sd_diff": 2.1097089465814265,
+      "t_stat": 1.2443109412835482,
+      "t_p": 0.25343104656471865,
+      "wilcoxon_stat": 12.0,
+      "wilcoxon_p": 0.4609375,
+      "cohens_d": 0.4399303522431065,
+      "b_higher_count": 6,
+      "a_higher_count": 2,
+      "ties": 0
+    },
+    {
+      "pair": "crash - near-crash",
+      "n": 8,
+      "mean_diff": -1.0432500000000005,
+      "sd_diff": 2.331094638637762,
+      "t_stat": -1.2658244538779508,
+      "t_p": 0.2460754974159035,
+      "wilcoxon_stat": 9.0,
+      "wilcoxon_p": 0.25,
+      "cohens_d": -0.4475365275644286,
+      "b_higher_count": 3,
+      "a_higher_count": 5,
+      "ties": 0
+    }
+  ],
+  "argmax_counts": {
+    "safe": 1,
+    "near-crash": 4,
+    "crash": 3
+  },
+  "directional_proxy": {
+    "n": 8,
+    "crash>safe": 6,
+    "near>safe": 6,
+    "crash>near": 3,
+    "pct_crash_over_safe": 75.0,
+    "pct_near_over_safe": 75.0,
+    "pct_crash_over_near": 37.5
+  },
+  "group_means_x100": {
+    "safe": 26.998125,
+    "near-crash": 28.9695,
+    "crash": 27.926250000000003
+  },
+  "group_sds_x100": {
+    "safe": 2.5816100423406874,
+    "near-crash": 1.6135440141856332,
+    "crash": 1.5167648607668702
+  }
+}

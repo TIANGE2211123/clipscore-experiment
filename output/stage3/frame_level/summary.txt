@@ -1,0 +1,45 @@
+STAGE-3b FRAME-LEVEL ANALYSIS
+============================================================
+scenarios: 8   frames/video: 73   total frame scores: 1752
+
+Per-video frame-level paired t-tests (n=73 per test):
+scenario  pair                       Δmean       t      p(t)  frames b>a
+1376      near-crash - safe         +3.227  +36.28  5.25e-48    73/73
+1376      crash - safe              -1.590  -25.34  1.33e-37     0/73
+1376      crash - near-crash        -4.817  -64.98  1.13e-65     0/73
+1377      near-crash - safe         +3.957  +50.38  6.96e-58    73/73
+1377      crash - safe              +5.031  +48.67  7.76e-57    73/73
+1377      crash - near-crash        +1.075   +8.33  3.65e-12    58/73
+1381      near-crash - safe         +2.576  +38.45  9.76e-50    73/73
+1381      crash - safe              +0.964  +14.09  2.17e-22    67/73
+1381      crash - near-crash        -1.611  -37.18  9.87e-49     0/73
+1382      near-crash - safe         +2.762  +22.48  2.81e-34    73/73
+1382      crash - safe              +1.118  +12.43  1.38e-19    66/73
+1382      crash - near-crash        -1.644  -10.49  3.77e-16    15/73
+1383      near-crash - safe         -0.633  -12.89  2.25e-20     2/73
+1383      crash - safe              +0.801   +8.58  1.24e-12    64/73
+1383      crash - near-crash        +1.435  +17.05  5.49e-27    73/73
+1398      near-crash - safe         +4.877  +83.32  2.40e-73    73/73
+1398      crash - safe              +1.274  +15.02  6.98e-24    72/73
+1398      crash - near-crash        -3.604  -55.05  1.37e-60     0/73
+1485      near-crash - safe         -1.268  -10.62  2.17e-16     9/73
+1485      crash - safe              -1.782  -11.26  1.52e-17     4/73
+1485      crash - near-crash        -0.514   -2.40  1.90e-02    31/73
+1500      near-crash - safe         +0.273   +3.69  4.26e-04    44/73
+1500      crash - safe              +1.607  +23.63  1.18e-35    73/73
+1500      crash - near-crash        +1.334  +19.65  1.18e-30    71/73
+
+Aggregate per pair (mean Δ across scenarios, frame-weighted):
+  near-crash - safe        Δmean_of_means=+1.971  videos with p<0.05: 8/8
+  crash - safe             Δmean_of_means=+0.928  videos with p<0.05: 8/8
+  crash - near-crash       Δmean_of_means=-1.043  videos with p<0.05: 8/8
+
+Trajectory correlations (Pearson r between per-frame scores of different description types):
+  1376: safe-near=+0.323   safe-crash=+0.505   near-crash=+0.408
+  1377: safe-near=-0.128   safe-crash=+0.330   near-crash=-0.239
+  1381: safe-near=+0.131   safe-crash=+0.136   near-crash=+0.563
+  1382: safe-near=-0.133   safe-crash=+0.423   near-crash=-0.303
+  1383: safe-near=+0.294   safe-crash=-0.484   near-crash=-0.020
+  1398: safe-near=+0.372   safe-crash=+0.461   near-crash=+0.755
+  1485: safe-near=+0.429   safe-crash=-0.219   near-crash=-0.299
+  1500: safe-near=+0.403   safe-crash=+0.105   near-crash=+0.487

@@ -1,0 +1,342 @@
+{
+  "frame_tests": [
+    {
+      "scenario_id": "1376",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 3.227122719973734,
+      "sd_diff": 0.7600350459669629,
+      "t_stat": 36.277996327097526,
+      "t_p": 5.247020445662291e-48,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1376",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": -1.5897363016050157,
+      "sd_diff": 0.5360585343606696,
+      "t_stat": -25.338115232471623,
+      "t_p": 1.3322493367004879e-37,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 0,
+      "a_frames_higher": 73
+    },
+    {
+      "scenario_id": "1376",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": -4.8168590215787495,
+      "sd_diff": 0.6333413308013007,
+      "t_stat": -64.98117132031462,
+      "t_p": 1.1330830287558651e-65,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 0,
+      "a_frames_higher": 73
+    },
+    {
+      "scenario_id": "1377",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 3.9566633636004305,
+      "sd_diff": 0.671035741935679,
+      "t_stat": 50.37845897752959,
+      "t_p": 6.9606653527736e-58,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1377",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 5.0311914045516755,
+      "sd_diff": 0.8831919753425194,
+      "t_stat": 48.671771714442784,
+      "t_p": 7.762374836009683e-57,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1377",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": 1.0745280409512454,
+      "sd_diff": 1.1015888880837739,
+      "t_stat": 8.334117841644359,
+      "t_p": 3.645541171052777e-12,
+      "wilcoxon_p": 2.0337923491658903e-09,
+      "b_frames_higher": 58,
+      "a_frames_higher": 15
+    },
+    {
+      "scenario_id": "1381",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 2.575817745025844,
+      "sd_diff": 0.5723689013025148,
+      "t_stat": 38.450370749832835,
+      "t_p": 9.760858810216972e-50,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1381",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 0.964319256887044,
+      "sd_diff": 0.5846428921585503,
+      "t_stat": 14.092615258016915,
+      "t_p": 2.172209641224719e-22,
+      "wilcoxon_p": 4.21326544298423e-13,
+      "b_frames_higher": 67,
+      "a_frames_higher": 6
+    },
+    {
+      "scenario_id": "1381",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": -1.6114984881387997,
+      "sd_diff": 0.37037172765138765,
+      "t_stat": -37.17521638474302,
+      "t_p": 9.866779934350807e-49,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 0,
+      "a_frames_higher": 73
+    },
+    {
+      "scenario_id": "1382",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 2.7623632999315655,
+      "sd_diff": 1.0497577401028708,
+      "t_stat": 22.482941995960086,
+      "t_p": 2.808130730338937e-34,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1382",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 1.1184822614878824,
+      "sd_diff": 0.7690260977990194,
+      "t_stat": 12.42651797978536,
+      "t_p": 1.3782498340788656e-19,
+      "wilcoxon_p": 1.5205095017099203e-12,
+      "b_frames_higher": 66,
+      "a_frames_higher": 7
+    },
+    {
+      "scenario_id": "1382",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": -1.643881038443683,
+      "sd_diff": 1.3389860335527162,
+      "t_stat": -10.489523712247394,
+      "t_p": 3.768201478251257e-16,
+      "wilcoxon_p": 2.4424620157340208e-11,
+      "b_frames_higher": 15,
+      "a_frames_higher": 58
+    },
+    {
+      "scenario_id": "1383",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": -0.6333400941874883,
+      "sd_diff": 0.41996405685010146,
+      "t_stat": -12.885055395893342,
+      "t_p": 2.2545539288668422e-20,
+      "wilcoxon_p": 1.3933579401559332e-13,
+      "b_frames_higher": 2,
+      "a_frames_higher": 71
+    },
+    {
+      "scenario_id": "1383",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 0.8013650979081245,
+      "sd_diff": 0.7975952035730202,
+      "t_stat": 8.584387628237451,
+      "t_p": 1.243163646887324e-12,
+      "wilcoxon_p": 2.746072193968204e-12,
+      "b_frames_higher": 64,
+      "a_frames_higher": 9
+    },
+    {
+      "scenario_id": "1383",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": 1.4347051920956129,
+      "sd_diff": 0.7189713804867534,
+      "t_stat": 17.049533357492628,
+      "t_p": 5.4854609618989235e-27,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1398",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 4.877253509547613,
+      "sd_diff": 0.5001095651263381,
+      "t_stat": 83.32428563311092,
+      "t_p": 2.4046963457221397e-73,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1398",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 1.2736869593189186,
+      "sd_diff": 0.724545473255225,
+      "t_stat": 15.019604086256653,
+      "t_p": 6.979910377216969e-24,
+      "wilcoxon_p": 1.230514637638095e-13,
+      "b_frames_higher": 72,
+      "a_frames_higher": 1
+    },
+    {
+      "scenario_id": "1398",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": -3.6035665502286935,
+      "sd_diff": 0.5592407384497133,
+      "t_stat": -55.05479838075755,
+      "t_p": 1.3689736865660094e-60,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 0,
+      "a_frames_higher": 73
+    },
+    {
+      "scenario_id": "1485",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": -1.267977732501618,
+      "sd_diff": 1.0199803652146746,
+      "t_stat": -10.621387298169129,
+      "t_p": 2.1717377444347068e-16,
+      "wilcoxon_p": 1.1470127049823724e-11,
+      "b_frames_higher": 9,
+      "a_frames_higher": 64
+    },
+    {
+      "scenario_id": "1485",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": -1.7819421340341437,
+      "sd_diff": 1.3517894111604747,
+      "t_stat": -11.26279000370084,
+      "t_p": 1.5244941030072722e-17,
+      "wilcoxon_p": 6.572103169311322e-13,
+      "b_frames_higher": 4,
+      "a_frames_higher": 69
+    },
+    {
+      "scenario_id": "1485",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": -0.5139644015325259,
+      "sd_diff": 1.830453620729981,
+      "t_stat": -2.3990303397594626,
+      "t_p": 0.01902935069525735,
+      "wilcoxon_p": 0.030098945995181578,
+      "b_frames_higher": 31,
+      "a_frames_higher": 42
+    },
+    {
+      "scenario_id": "1500",
+      "pair": "near-crash - safe",
+      "n_frames": 73,
+      "mean_diff": 0.2727803302137819,
+      "sd_diff": 0.6307793454685121,
+      "t_stat": 3.6948517413239377,
+      "t_p": 0.00042571850157509635,
+      "wilcoxon_p": 0.0007900484346865128,
+      "b_frames_higher": 44,
+      "a_frames_higher": 29
+    },
+    {
+      "scenario_id": "1500",
+      "pair": "crash - safe",
+      "n_frames": 73,
+      "mean_diff": 1.6066749210227025,
+      "sd_diff": 0.580825765286915,
+      "t_stat": 23.634345036234183,
+      "t_p": 1.1765399286009914e-35,
+      "wilcoxon_p": 1.1325002193757658e-13,
+      "b_frames_higher": 73,
+      "a_frames_higher": 0
+    },
+    {
+      "scenario_id": "1500",
+      "pair": "crash - near-crash",
+      "n_frames": 73,
+      "mean_diff": 1.3338945908089206,
+      "sd_diff": 0.5798615310173711,
+      "t_stat": 19.654348098820154,
+      "t_p": 1.1765000911260219e-30,
+      "wilcoxon_p": 1.4522080830746074e-13,
+      "b_frames_higher": 71,
+      "a_frames_higher": 2
+    }
+  ],
+  "trajectory_corrs": [
+    {
+      "scenario_id": "1376",
+      "r(safe,near-crash)": 0.3233282621595927,
+      "r(safe,crash)": 0.5048056957749509,
+      "r(near-crash,crash)": 0.40800548590232427
+    },
+    {
+      "scenario_id": "1377",
+      "r(safe,near-crash)": -0.12849272015742247,
+      "r(safe,crash)": 0.3299665203339989,
+      "r(near-crash,crash)": -0.2394056538679004
+    },
+    {
+      "scenario_id": "1381",
+      "r(safe,near-crash)": 0.1313181350723496,
+      "r(safe,crash)": 0.13636984144406572,
+      "r(near-crash,crash)": 0.5628076898991546
+    },
+    {
+      "scenario_id": "1382",
+      "r(safe,near-crash)": -0.13286602024348523,
+      "r(safe,crash)": 0.42296004634287176,
+      "r(near-crash,crash)": -0.30275716180466633
+    },
+    {
+      "scenario_id": "1383",
+      "r(safe,near-crash)": 0.29390854092534785,
+      "r(safe,crash)": -0.4842553741633308,
+      "r(near-crash,crash)": -0.020316584833593
+    },
+    {
+      "scenario_id": "1398",
+      "r(safe,near-crash)": 0.3715718922729884,
+      "r(safe,crash)": 0.460928068163522,
+      "r(near-crash,crash)": 0.7548211875394265
+    },
+    {
+      "scenario_id": "1485",
+      "r(safe,near-crash)": 0.42893108588561635,
+      "r(safe,crash)": -0.2186705410042342,
+      "r(near-crash,crash)": -0.29946609181115763
+    },
+    {
+      "scenario_id": "1500",
+      "r(safe,near-crash)": 0.4034483244287287,
+      "r(safe,crash)": 0.10452612411535964,
+      "r(near-crash,crash)": 0.48659144026022405
+    }
+  ]
+}

@@ -25,6 +25,10 @@ test/
 *.log
 *.txt
 !requirements.txt
+!output/stage3/summary.txt
+!output/stage3/frame_level/summary.txt
+!output/stage4/stage4_analysis/summary.txt
+!output/stage4/picks.txt
 autodl_*.log
 download_*.log
 nohup.out
@@ -66,6 +70,9 @@ temp/
 !classified_descriptions.csv
 !job_manifest.csv
 !*_results.csv
+!output/stage3/per_video_table.csv
+!output/stage4/prompts/prompt_sets.csv
+!output/stage4/clipscore/per_video.csv
 
 # Keep specific directories structure
 !test_data/

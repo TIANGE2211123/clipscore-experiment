@@ -1,0 +1,33 @@
+STAGE-3 LABEL-BIAS ANALYSIS
+============================================================
+source: /home/node/a0/workspace/c75b3f37-f56e-4c49-ba65-ffbe4b0acf78/workspace/clipscore-experiment/output/metrics/clip_evaluation_results.csv
+n videos analyzed (all 3 description types present): 8
+
+Group means (ClipScore × 100):
+  safe         mean=26.998  sd=2.582
+  near-crash   mean=28.970  sd=1.614
+  crash        mean=27.926  sd=1.517
+
+Within-video variance (same frames, only label word changes):
+  mean max-min range = 3.111
+  median max-min     = 2.669
+  mean per-video sd  = 1.603
+
+Paired tests (Δ = b − a on SAME video):
+  near-crash - safe            Δmean=+1.971  t=+2.490  p(t)=0.0416  Wp=0.0781  d=+0.880  wins b/a/ties=6/2/0
+  crash - safe                 Δmean=+0.928  t=+1.244  p(t)=0.2534  Wp=0.4609  d=+0.440  wins b/a/ties=6/2/0
+  crash - near-crash           Δmean=-1.043  t=-1.266  p(t)=0.2461  Wp=0.2500  d=-0.448  wins b/a/ties=3/5/0
+
+Argmax description per video:
+  safe         wins 1 of 8
+  near-crash   wins 4 of 8
+  crash        wins 3 of 8
+
+Directional proxy:
+  n: 8
+  crash>safe: 6
+  near>safe: 6
+  crash>near: 3
+  pct_crash_over_safe: 75.0
+  pct_near_over_safe: 75.0
+  pct_crash_over_near: 37.5
