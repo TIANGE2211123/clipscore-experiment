@@ -1,0 +1,122 @@
+{
+  "-2PbLgrSGfc": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A grey sedan travels along a wide, paved road towards an intersection. A white car crosses the junction well in advance, allowing the grey sedan to maintain its course and speed smoothly.",
+      "near_crash": "A grey sedan approaches an intersection just as a white car suddenly enters the crossing from the left. The grey sedan brakes heavily, stopping just short of the white car to prevent an impact.",
+      "crash": "A grey sedan drives towards an intersection as a white car crosses its path from the left. The grey sedan fails to stop in time and strikes the side of the white car, crumpling its front bumper."
+    }
+  },
+  "2ykoE_FyWpI": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A blue SUV drives along a paved road under a clear sky. A cyclist waits behind a parked black SUV on the right side of the road. The blue SUV maintains its speed and lane, passing the area smoothly without any conflict.",
+      "near_crash": "A blue SUV travels down a paved road on a sunny day. Suddenly, a cyclist darts out into the lane from behind a parked black SUV on the right. The blue SUV brakes sharply, stopping just short of the cyclist to avoid an impact.",
+      "crash": "A blue SUV drives along a paved road under a clear sky. A cyclist unexpectedly rides out from behind a parked black SUV on the right, directly into the vehicle's path. The blue SUV cannot stop in time and collides with the cyclist."
+    }
+  },
+  "NqiIYzetr6g": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A white SUV drives steadily along a paved surface toward a solid flat barrier. The vehicle decelerates smoothly, coming to a controlled halt well before reaching the wall. The front end remains completely intact.",
+      "near_crash": "A white SUV speeds toward a solid flat barrier, failing to slow down initially. At the last possible second, the vehicle brakes sharply, dipping its front end and stopping mere inches from the wall without making contact.",
+      "crash": "A white SUV collides heavily with a solid flat barrier. The severe impact crushes the front bumper, buckles the hood upward, and instantly deploys the interior airbags. The vehicle comes to an immediate halt against the wall."
+    }
+  },
+  "TIxUylmJeh4": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A grey SUV drives smoothly along a well-lit road, maintaining a steady pace. It keeps a wide distance from a blue truck ahead, continuing its journey without any sudden braking or steering changes.",
+      "near_crash": "A grey SUV rapidly closes the distance to a stationary blue truck ahead. The SUV brakes sharply at the last second, coming to a sudden halt just inches away from the blue bumper without making contact.",
+      "crash": "A grey SUV forcefully collides with a stationary blue truck. The SUV's front end crumples severely, shattering the windshield and sending debris into the air as the interior airbags deploy instantly."
+    }
+  },
+  "ZPv9uEcdrGI": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A white SUV drives smoothly along a wide, multi-lane paved road in clear daylight. It navigates straight through an intersection, maintaining a steady speed with no obstacles or hazards in its path.",
+      "near_crash": "A white SUV approaches an intersection on a wide, multi-lane road. Suddenly, another white car crosses into its path, forcing the SUV to brake hard and swerve. The vehicles narrowly miss each other, and the SUV regains control.",
+      "crash": "A white SUV travels along a paved road and violently strikes an obstacle head-on. The severe impact crushes the front bumper and hood, instantly shattering the windshield and sending a spray of broken glass flying into the air."
+    }
+  },
+  "mMImGwGp_LY": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "Viewed from the side, a black SUV drives steadily along a paved road parallel to a heavy barrier. The vehicle maintains its course, smoothly passing the structure without any sudden movements.",
+      "near_crash": "Viewed from the side, a black SUV heads directly toward a heavy barrier. The vehicle brakes sharply, its nose dipping as it comes to an abrupt halt just inches away from the structure.",
+      "crash": "Viewed from the side, a black SUV drives directly into a heavy barrier. The front end of the vehicle crumples violently upon impact, absorbing the force as the SUV comes to a sudden stop."
+    }
+  },
+  "v3HZHgZfU6M": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as traffic compresses rapidly and the gap closes to a dangerous margin before recovery.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A silver car drives smoothly along a paved surface, maintaining a steady trajectory. It passes a red metal pole with ample clearance, continuing forward without any disruption.",
+      "near_crash": "A silver car drifts dangerously close to a red metal pole on the paved surface. The vehicle brakes hard and swerves at the last second, avoiding an impact.",
+      "crash": "A silver car strikes a red metal pole head-on. The severe impact shatters the windshield and buckles the roof, while the interior airbags deploy instantly around the driver."
+    }
+  },
+  "w6ZUtZ3yYeA": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A white SUV drives steadily through a brightly lit indoor tunnel. It maintains a straight path along the concrete floor. The vehicle comes to a smooth, controlled stop well before reaching the solid wall ahead.",
+      "near_crash": "A white SUV travels quickly through a brightly lit indoor tunnel, heading straight for a solid wall. The vehicle brakes sharply at the last moment, its tires gripping the concrete floor. It comes to an abrupt halt just inches from the barrier, avoiding any impact.",
+      "crash": "A white SUV travels through a brightly lit indoor tunnel and fails to stop as it approaches a solid wall. The vehicle collides heavily with the barrier, causing the hood to buckle and the front end to severely crumple. Debris scatters across the concrete floor from the force of the impact."
+    }
+  },
+  "Wc8mgFUCLsM": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A dark grey SUV approaches a paved intersection surrounded by trees, preparing to turn left. An oncoming white car passes straight through, allowing the SUV to complete its maneuver smoothly without any conflict.",
+      "near_crash": "A dark grey SUV begins a left turn at a tree-lined intersection, crossing directly into the path of an oncoming white car. Both vehicles brake sharply and swerve, coming to a sudden stop just inches apart.",
+      "crash": "A dark grey SUV attempts a left turn at an intersection and pulls into the path of an oncoming white car. The resulting heavy impact crushes the SUV's front end, shattering debris across the road and instantly deploying the interior airbags."
+    }
+  },
+  "xuXJVzOMu0I": {
+    "P_label": {
+      "safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+      "near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+      "crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+    },
+    "P_scenario": {
+      "safe": "A black SUV drives smoothly across a wide paved area under a cloudy sky. A cyclist crosses far ahead, and the vehicle maintains a steady speed, continuing its path without any disruption.",
+      "near_crash": "A black SUV travels across a wide paved area when a cyclist suddenly crosses directly in its path. The vehicle brakes sharply, dipping its front end and coming to a halt just short of the rider.",
+      "crash": "A black SUV loses control on a wide paved area and collides heavily with a bright yellow barrier. The vehicle's front end crumples severely, the windshield shatters, and the interior airbags deploy instantly."
+    }
+  }
+}

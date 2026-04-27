@@ -106,7 +106,7 @@ clipscore-experiment/
         ├── REPORT.md            #     findings + figures
         ├── prompts/             #     Gemini descriptions + P_label/P_scenario sets
         ├── clipscore/           #     per-video ViT-L/14 scores on generated clips
-        └── figures/             #     figs 10-12 (token bias, own-score, confusion)
+        └── stage4_analysis/     #     figs 10-12 + summary.{txt,json}
 ```
 
 ---

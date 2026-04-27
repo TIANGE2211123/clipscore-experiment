@@ -1,0 +1,13 @@
+STAGE-4 LABEL-BIAS ANALYSIS (generated videos)
+============================================================
+source videos × labels paired: 18
+
+Own-prompt quality (does the generator follow the prompt?):
+  P_label   mean = 29.05
+  P_scenario mean = 30.62
+  Δ(P_label − P_scenario) = -1.57  t=-2.24  p=0.038
+
+Label-token bias (paired within each source video):
+  label=safe        n=9   Δ(P_label − P_scenario) on tok_safe = -0.214  t=-0.37  p(t)=0.72  p(Wilcoxon)=0.65
+  label=near_crash  n=5   Δ(P_label − P_scenario) on tok_near_crash = -0.366  t=-0.47  p(t)=0.66  p(Wilcoxon)=0.62
+  label=crash       n=4   Δ(P_label − P_scenario) on tok_crash = -1.712  t=-4.68  p(t)=0.018  p(Wilcoxon)=0.12

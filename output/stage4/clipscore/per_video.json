@@ -1,0 +1,4941 @@
+{
+  "results": [
+    {
+      "video_id": "-2PbLgrSGfc",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 29.793848037719727,
+      "std_own": 2.960805892944336,
+      "mean_tok_safe": 23.58128547668457,
+      "std_tok_safe": 1.5571479797363281,
+      "mean_tok_near_crash": 24.831207275390625,
+      "std_tok_near_crash": 3.153515577316284,
+      "mean_tok_crash": 25.374080657958984,
+      "std_tok_crash": 3.175525188446045,
+      "mean_prompt_safe": 27.80918312072754,
+      "std_prompt_safe": 2.4680802822113037,
+      "mean_prompt_near_crash": 29.619930267333984,
+      "std_prompt_near_crash": 3.0341227054595947,
+      "mean_prompt_crash": 29.793848037719727,
+      "std_prompt_crash": 2.9608044624328613
+    },
+    {
+      "video_id": "2ykoE_FyWpI",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 31.00031089782715,
+      "std_own": 1.824830412864685,
+      "mean_tok_safe": 24.28097152709961,
+      "std_tok_safe": 1.0783262252807617,
+      "mean_tok_near_crash": 26.93363380432129,
+      "std_tok_near_crash": 2.3733057975769043,
+      "mean_tok_crash": 27.103404998779297,
+      "std_tok_crash": 2.324596881866455,
+      "mean_prompt_safe": 29.544395446777344,
+      "std_prompt_safe": 0.7970963716506958,
+      "mean_prompt_near_crash": 31.165485382080078,
+      "std_prompt_near_crash": 1.4190365076065063,
+      "mean_prompt_crash": 31.00031280517578,
+      "std_prompt_crash": 1.824828028678894
+    },
+    {
+      "video_id": "NqiIYzetr6g",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 28.70144271850586,
+      "std_own": 2.2674853801727295,
+      "mean_tok_safe": 24.244525909423828,
+      "std_tok_safe": 1.7281118631362915,
+      "mean_tok_near_crash": 24.84084701538086,
+      "std_tok_near_crash": 2.9727842807769775,
+      "mean_tok_crash": 25.284515380859375,
+      "std_tok_crash": 2.9643893241882324,
+      "mean_prompt_safe": 26.634557723999023,
+      "std_prompt_safe": 1.843130111694336,
+      "mean_prompt_near_crash": 29.298786163330078,
+      "std_prompt_near_crash": 2.052079200744629,
+      "mean_prompt_crash": 28.70144271850586,
+      "std_prompt_crash": 2.267484664916992
+    },
+    {
+      "video_id": "TIxUylmJeh4",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 30.36575698852539,
+      "std_own": 2.1265869140625,
+      "mean_tok_safe": 23.5930118560791,
+      "std_tok_safe": 1.5921012163162231,
+      "mean_tok_near_crash": 25.81022834777832,
+      "std_tok_near_crash": 3.069899797439575,
+      "mean_tok_crash": 26.480741500854492,
+      "std_tok_crash": 3.0448646545410156,
+      "mean_prompt_safe": 28.828529357910156,
+      "std_prompt_safe": 2.019361972808838,
+      "mean_prompt_near_crash": 29.98492431640625,
+      "std_prompt_near_crash": 2.5176734924316406,
+      "mean_prompt_crash": 30.365753173828125,
+      "std_prompt_crash": 2.126586437225342
+    },
+    {
+      "video_id": "Wc8mgFUCLsM",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 32.661842346191406,
+      "std_own": 1.2489386796951294,
+      "mean_tok_safe": 24.23430824279785,
+      "std_tok_safe": 1.3097076416015625,
+      "mean_tok_near_crash": 26.394817352294922,
+      "std_tok_near_crash": 2.2705130577087402,
+      "mean_tok_crash": 26.82660484313965,
+      "std_tok_crash": 2.3642985820770264,
+      "mean_prompt_safe": 31.21664810180664,
+      "std_prompt_safe": 0.9617341160774231,
+      "mean_prompt_near_crash": 33.084449768066406,
+      "std_prompt_near_crash": 1.2064316272735596,
+      "mean_prompt_crash": 32.66183853149414,
+      "std_prompt_crash": 1.2489373683929443
+    },
+    {
+      "video_id": "ZPv9uEcdrGI",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 32.47394561767578,
+      "std_own": 2.3958444595336914,
+      "mean_tok_safe": 24.743412017822266,
+      "std_tok_safe": 1.7615394592285156,
+      "mean_tok_near_crash": 27.612125396728516,
+      "std_tok_near_crash": 3.0825858116149902,
+      "mean_tok_crash": 27.717792510986328,
+      "std_tok_crash": 2.871617078781128,
+      "mean_prompt_safe": 30.359411239624023,
+      "std_prompt_safe": 1.9916430711746216,
+      "mean_prompt_near_crash": 32.22988510131836,
+      "std_prompt_near_crash": 2.1765267848968506,
+      "mean_prompt_crash": 32.473941802978516,
+      "std_prompt_crash": 2.3958418369293213
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 28.39219093322754,
+      "std_own": 1.851919412612915,
+      "mean_tok_safe": 22.81828498840332,
+      "std_tok_safe": 0.4499052166938782,
+      "mean_tok_near_crash": 23.69141960144043,
+      "std_tok_near_crash": 1.0277767181396484,
+      "mean_tok_crash": 23.21262550354004,
+      "std_tok_crash": 1.280190110206604,
+      "mean_prompt_safe": 27.925657272338867,
+      "std_prompt_safe": 1.4419127702713013,
+      "mean_prompt_near_crash": 28.359704971313477,
+      "std_prompt_near_crash": 1.6554648876190186,
+      "mean_prompt_crash": 28.39219093322754,
+      "std_prompt_crash": 1.8519179821014404
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 29.431381225585938,
+      "std_own": 2.895218849182129,
+      "mean_tok_safe": 23.524898529052734,
+      "std_tok_safe": 1.5384353399276733,
+      "mean_tok_near_crash": 25.559661865234375,
+      "std_tok_near_crash": 2.8023874759674072,
+      "mean_tok_crash": 24.86147689819336,
+      "std_tok_crash": 3.043931245803833,
+      "mean_prompt_safe": 26.50115966796875,
+      "std_prompt_safe": 2.4556193351745605,
+      "mean_prompt_near_crash": 28.590457916259766,
+      "std_prompt_near_crash": 3.2031970024108887,
+      "mean_prompt_crash": 29.431379318237305,
+      "std_prompt_crash": 2.8952174186706543
+    },
+    {
+      "video_id": "w6ZUtZ3yYeA",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 31.951101303100586,
+      "std_own": 2.4617362022399902,
+      "mean_tok_safe": 23.800703048706055,
+      "std_tok_safe": 1.5144503116607666,
+      "mean_tok_near_crash": 25.946304321289062,
+      "std_tok_near_crash": 2.880563974380493,
+      "mean_tok_crash": 26.726133346557617,
+      "std_tok_crash": 2.7782440185546875,
+      "mean_prompt_safe": 30.346172332763672,
+      "std_prompt_safe": 1.6292108297348022,
+      "mean_prompt_near_crash": 32.09737014770508,
+      "std_prompt_near_crash": 2.049612283706665,
+      "mean_prompt_crash": 31.951099395751953,
+      "std_prompt_crash": 2.4617364406585693
+    },
+    {
+      "video_id": "xuXJVzOMu0I",
+      "ptype": "P_label",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 32.075927734375,
+      "std_own": 1.312540888786316,
+      "mean_tok_safe": 26.3698787689209,
+      "std_tok_safe": 0.7903748154640198,
+      "mean_tok_near_crash": 28.370359420776367,
+      "std_tok_near_crash": 1.5939868688583374,
+      "mean_tok_crash": 28.266328811645508,
+      "std_tok_crash": 1.8645334243774414,
+      "mean_prompt_safe": 31.13619613647461,
+      "std_prompt_safe": 1.2955574989318848,
+      "mean_prompt_near_crash": 32.730445861816406,
+      "std_prompt_near_crash": 1.2059484720230103,
+      "mean_prompt_crash": 32.075931549072266,
+      "std_prompt_crash": 1.3125423192977905
+    },
+    {
+      "video_id": "-2PbLgrSGfc",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 32.100528717041016,
+      "std_own": 2.324934244155884,
+      "mean_tok_safe": 23.293346405029297,
+      "std_tok_safe": 0.8632853627204895,
+      "mean_tok_near_crash": 23.98273468017578,
+      "std_tok_near_crash": 2.0267672538757324,
+      "mean_tok_crash": 24.792713165283203,
+      "std_tok_crash": 2.0716660022735596,
+      "mean_prompt_safe": 30.76336097717285,
+      "std_prompt_safe": 1.6441439390182495,
+      "mean_prompt_near_crash": 32.100528717041016,
+      "std_prompt_near_crash": 2.3249335289001465,
+      "mean_prompt_crash": 31.362096786499023,
+      "std_prompt_crash": 2.0828869342803955
+    },
+    {
+      "video_id": "NqiIYzetr6g",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 28.1916446685791,
+      "std_own": 1.3722578287124634,
+      "mean_tok_safe": 21.376638412475586,
+      "std_tok_safe": 0.3103993237018585,
+      "mean_tok_near_crash": 21.082632064819336,
+      "std_tok_near_crash": 0.608479380607605,
+      "mean_tok_crash": 21.145811080932617,
+      "std_tok_crash": 0.8334053158760071,
+      "mean_prompt_safe": 25.77103042602539,
+      "std_prompt_safe": 1.397097110748291,
+      "mean_prompt_near_crash": 28.1916446685791,
+      "std_prompt_near_crash": 1.3722611665725708,
+      "mean_prompt_crash": 27.297527313232422,
+      "std_prompt_crash": 1.4597630500793457
+    },
+    {
+      "video_id": "TIxUylmJeh4",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 31.160587310791016,
+      "std_own": 2.110292911529541,
+      "mean_tok_safe": 23.71227264404297,
+      "std_tok_safe": 1.2716140747070312,
+      "mean_tok_near_crash": 25.658483505249023,
+      "std_tok_near_crash": 2.2985117435455322,
+      "mean_tok_crash": 25.08112335205078,
+      "std_tok_crash": 2.6194710731506348,
+      "mean_prompt_safe": 29.0573787689209,
+      "std_prompt_safe": 1.5820122957229614,
+      "mean_prompt_near_crash": 31.16059112548828,
+      "std_prompt_near_crash": 2.1102895736694336,
+      "mean_prompt_crash": 30.317768096923828,
+      "std_prompt_crash": 2.3096909523010254
+    },
+    {
+      "video_id": "Wc8mgFUCLsM",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 27.571758270263672,
+      "std_own": 1.9674397706985474,
+      "mean_tok_safe": 22.361221313476562,
+      "std_tok_safe": 1.2478439807891846,
+      "mean_tok_near_crash": 23.003374099731445,
+      "std_tok_near_crash": 2.119858980178833,
+      "mean_tok_crash": 23.39531898498535,
+      "std_tok_crash": 2.03822922706604,
+      "mean_prompt_safe": 25.090238571166992,
+      "std_prompt_safe": 2.17207407951355,
+      "mean_prompt_near_crash": 27.571754455566406,
+      "std_prompt_near_crash": 1.9674406051635742,
+      "mean_prompt_crash": 27.69632339477539,
+      "std_prompt_crash": 1.8784321546554565
+    },
+    {
+      "video_id": "ZPv9uEcdrGI",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 30.685081481933594,
+      "std_own": 1.5691238641738892,
+      "mean_tok_safe": 23.609569549560547,
+      "std_tok_safe": 0.905350387096405,
+      "mean_tok_near_crash": 24.775390625,
+      "std_tok_near_crash": 2.547595977783203,
+      "mean_tok_crash": 25.04256820678711,
+      "std_tok_crash": 2.473266839981079,
+      "mean_prompt_safe": 29.445556640625,
+      "std_prompt_safe": 1.978568196296692,
+      "mean_prompt_near_crash": 30.685077667236328,
+      "std_prompt_near_crash": 1.5691227912902832,
+      "mean_prompt_crash": 30.576316833496094,
+      "std_prompt_crash": 1.8765246868133545
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 28.638154983520508,
+      "std_own": 1.4111887216567993,
+      "mean_tok_safe": 22.29006576538086,
+      "std_tok_safe": 0.7255976796150208,
+      "mean_tok_near_crash": 23.13715171813965,
+      "std_tok_near_crash": 1.568039894104004,
+      "mean_tok_crash": 23.433151245117188,
+      "std_tok_crash": 1.5425429344177246,
+      "mean_prompt_safe": 27.371150970458984,
+      "std_prompt_safe": 1.2475385665893555,
+      "mean_prompt_near_crash": 28.638153076171875,
+      "std_prompt_near_crash": 1.4111887216567993,
+      "mean_prompt_crash": 28.72288703918457,
+      "std_prompt_crash": 1.2924779653549194
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 26.01348876953125,
+      "std_own": 1.191211223602295,
+      "mean_tok_safe": 21.778324127197266,
+      "std_tok_safe": 0.46871495246887207,
+      "mean_tok_near_crash": 22.50269317626953,
+      "std_tok_near_crash": 0.7506831288337708,
+      "mean_tok_crash": 22.673620223999023,
+      "std_tok_crash": 0.36854296922683716,
+      "mean_prompt_safe": 25.492586135864258,
+      "std_prompt_safe": 0.9517614841461182,
+      "mean_prompt_near_crash": 26.013486862182617,
+      "std_prompt_near_crash": 1.191210150718689,
+      "mean_prompt_crash": 26.173587799072266,
+      "std_prompt_crash": 1.0314511060714722
+    },
+    {
+      "video_id": "w6ZUtZ3yYeA",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 29.799898147583008,
+      "std_own": 2.384944438934326,
+      "mean_tok_safe": 22.540252685546875,
+      "std_tok_safe": 1.3316895961761475,
+      "mean_tok_near_crash": 23.221162796020508,
+      "std_tok_near_crash": 1.9058020114898682,
+      "mean_tok_crash": 24.421878814697266,
+      "std_tok_crash": 2.0249578952789307,
+      "mean_prompt_safe": 28.880084991455078,
+      "std_prompt_safe": 2.503861427307129,
+      "mean_prompt_near_crash": 29.799896240234375,
+      "std_prompt_near_crash": 2.3849453926086426,
+      "mean_prompt_crash": 29.50046157836914,
+      "std_prompt_crash": 2.5750603675842285
+    },
+    {
+      "video_id": "xuXJVzOMu0I",
+      "ptype": "P_label",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 29.578916549682617,
+      "std_own": 1.7861393690109253,
+      "mean_tok_safe": 23.18656349182129,
+      "std_tok_safe": 0.41868385672569275,
+      "mean_tok_near_crash": 24.207273483276367,
+      "std_tok_near_crash": 1.356261134147644,
+      "mean_tok_crash": 24.619579315185547,
+      "std_tok_crash": 2.1834733486175537,
+      "mean_prompt_safe": 28.213193893432617,
+      "std_prompt_safe": 0.9649767279624939,
+      "mean_prompt_near_crash": 29.578914642333984,
+      "std_prompt_near_crash": 1.786138653755188,
+      "mean_prompt_crash": 28.741987228393555,
+      "std_prompt_crash": 1.5241221189498901
+    },
+    {
+      "video_id": "-2PbLgrSGfc",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 30.534324645996094,
+      "std_own": 0.7355465888977051,
+      "mean_tok_safe": 23.761110305786133,
+      "std_tok_safe": 0.3904472589492798,
+      "mean_tok_near_crash": 22.26378631591797,
+      "std_tok_near_crash": 0.6702063083648682,
+      "mean_tok_crash": 22.261018753051758,
+      "std_tok_crash": 0.7890483736991882,
+      "mean_prompt_safe": 30.534324645996094,
+      "std_prompt_safe": 0.7355468273162842,
+      "mean_prompt_near_crash": 31.099885940551758,
+      "std_prompt_near_crash": 0.6818482279777527,
+      "mean_prompt_crash": 30.327980041503906,
+      "std_prompt_crash": 0.6926174759864807
+    },
+    {
+      "video_id": "2ykoE_FyWpI",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 30.391647338867188,
+      "std_own": 0.7939618825912476,
+      "mean_tok_safe": 23.830060958862305,
+      "std_tok_safe": 0.49606451392173767,
+      "mean_tok_near_crash": 25.594451904296875,
+      "std_tok_near_crash": 0.4778403639793396,
+      "mean_tok_crash": 24.726459503173828,
+      "std_tok_crash": 0.498620867729187,
+      "mean_prompt_safe": 30.391647338867188,
+      "std_prompt_safe": 0.7939619421958923,
+      "mean_prompt_near_crash": 30.229339599609375,
+      "std_prompt_near_crash": 0.7686945199966431,
+      "mean_prompt_crash": 29.700302124023438,
+      "std_prompt_crash": 0.806776225566864
+    },
+    {
+      "video_id": "NqiIYzetr6g",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 31.210895538330078,
+      "std_own": 0.9788128733634949,
+      "mean_tok_safe": 24.596467971801758,
+      "std_tok_safe": 0.7369803786277771,
+      "mean_tok_near_crash": 25.673500061035156,
+      "std_tok_near_crash": 0.8437319993972778,
+      "mean_tok_crash": 24.719606399536133,
+      "std_tok_crash": 0.5240094661712646,
+      "mean_prompt_safe": 31.210895538330078,
+      "std_prompt_safe": 0.9788142442703247,
+      "mean_prompt_near_crash": 31.135963439941406,
+      "std_prompt_near_crash": 0.4881214499473572,
+      "mean_prompt_crash": 30.503284454345703,
+      "std_prompt_crash": 0.5289815068244934
+    },
+    {
+      "video_id": "TIxUylmJeh4",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 28.635234832763672,
+      "std_own": 1.1394304037094116,
+      "mean_tok_safe": 22.114675521850586,
+      "std_tok_safe": 0.45626088976860046,
+      "mean_tok_near_crash": 22.417837142944336,
+      "std_tok_near_crash": 0.8819186091423035,
+      "mean_tok_crash": 22.126813888549805,
+      "std_tok_crash": 0.7373332381248474,
+      "mean_prompt_safe": 28.63523292541504,
+      "std_prompt_safe": 1.1394309997558594,
+      "mean_prompt_near_crash": 28.542774200439453,
+      "std_prompt_near_crash": 1.0621742010116577,
+      "mean_prompt_crash": 28.407691955566406,
+      "std_prompt_crash": 0.8978463411331177
+    },
+    {
+      "video_id": "ZPv9uEcdrGI",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 27.442886352539062,
+      "std_own": 1.8805673122406006,
+      "mean_tok_safe": 23.134979248046875,
+      "std_tok_safe": 1.0438369512557983,
+      "mean_tok_near_crash": 22.44919204711914,
+      "std_tok_near_crash": 1.0584853887557983,
+      "mean_tok_crash": 21.751829147338867,
+      "std_tok_crash": 0.9993863105773926,
+      "mean_prompt_safe": 27.44288444519043,
+      "std_prompt_safe": 1.880565881729126,
+      "mean_prompt_near_crash": 27.940017700195312,
+      "std_prompt_near_crash": 1.602535367012024,
+      "mean_prompt_crash": 27.65228843688965,
+      "std_prompt_crash": 1.6266422271728516
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 26.77092742919922,
+      "std_own": 1.4024757146835327,
+      "mean_tok_safe": 21.441455841064453,
+      "std_tok_safe": 0.8956395983695984,
+      "mean_tok_near_crash": 20.17496109008789,
+      "std_tok_near_crash": 0.6804577708244324,
+      "mean_tok_crash": 19.942922592163086,
+      "std_tok_crash": 0.4998842477798462,
+      "mean_prompt_safe": 26.77092742919922,
+      "std_prompt_safe": 1.4024748802185059,
+      "mean_prompt_near_crash": 27.719268798828125,
+      "std_prompt_near_crash": 0.986691415309906,
+      "mean_prompt_crash": 26.519569396972656,
+      "std_prompt_crash": 1.1500053405761719
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 29.12558364868164,
+      "std_own": 1.3658078908920288,
+      "mean_tok_safe": 23.650680541992188,
+      "std_tok_safe": 0.6882410049438477,
+      "mean_tok_near_crash": 23.984926223754883,
+      "std_tok_near_crash": 0.834639310836792,
+      "mean_tok_crash": 22.51184844970703,
+      "std_tok_crash": 0.8349777460098267,
+      "mean_prompt_safe": 29.12558364868164,
+      "std_prompt_safe": 1.3658065795898438,
+      "mean_prompt_near_crash": 29.42182159423828,
+      "std_prompt_near_crash": 1.693833351135254,
+      "mean_prompt_crash": 29.36391258239746,
+      "std_prompt_crash": 1.4844253063201904
+    },
+    {
+      "video_id": "w6ZUtZ3yYeA",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 28.439210891723633,
+      "std_own": 0.20076003670692444,
+      "mean_tok_safe": 22.798078536987305,
+      "std_tok_safe": 0.27697545289993286,
+      "mean_tok_near_crash": 23.14469337463379,
+      "std_tok_near_crash": 0.5207468271255493,
+      "mean_tok_crash": 22.563417434692383,
+      "std_tok_crash": 0.40632808208465576,
+      "mean_prompt_safe": 28.439210891723633,
+      "std_prompt_safe": 0.20076175034046173,
+      "mean_prompt_near_crash": 27.884944915771484,
+      "std_prompt_near_crash": 0.2746647000312805,
+      "mean_prompt_crash": 27.30666732788086,
+      "std_prompt_crash": 0.19989746809005737
+    },
+    {
+      "video_id": "xuXJVzOMu0I",
+      "ptype": "P_label",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 31.328596115112305,
+      "std_own": 1.0819449424743652,
+      "mean_tok_safe": 23.665311813354492,
+      "std_tok_safe": 0.8440415263175964,
+      "mean_tok_near_crash": 24.06407928466797,
+      "std_tok_near_crash": 0.8550617694854736,
+      "mean_tok_crash": 23.350231170654297,
+      "std_tok_crash": 0.7626906633377075,
+      "mean_prompt_safe": 31.328594207763672,
+      "std_prompt_safe": 1.081944465637207,
+      "mean_prompt_near_crash": 31.4223575592041,
+      "std_prompt_near_crash": 1.1394803524017334,
+      "mean_prompt_crash": 30.45793914794922,
+      "std_prompt_crash": 1.0028212070465088
+    },
+    {
+      "video_id": "-2PbLgrSGfc",
+      "ptype": "P_scenario",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 27.161279678344727,
+      "std_own": 1.8554190397262573,
+      "mean_tok_safe": 23.867568969726562,
+      "std_tok_safe": 0.9735206365585327,
+      "mean_tok_near_crash": 26.099437713623047,
+      "std_tok_near_crash": 2.564074754714966,
+      "mean_tok_crash": 26.150516510009766,
+      "std_tok_crash": 2.9345340728759766,
+      "mean_prompt_safe": 25.529308319091797,
+      "std_prompt_safe": 0.8202563524246216,
+      "mean_prompt_near_crash": 27.37822723388672,
+      "std_prompt_near_crash": 1.240655779838562,
+      "mean_prompt_crash": 27.161277770996094,
+      "std_prompt_crash": 1.8554203510284424
+    },
+    {
+      "video_id": "NqiIYzetr6g",
+      "ptype": "P_scenario",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 33.9448356628418,
+      "std_own": 0.7458387613296509,
+      "mean_tok_safe": 24.14643669128418,
+      "std_tok_safe": 0.8118110299110413,
+      "mean_tok_near_crash": 26.804710388183594,
+      "std_tok_near_crash": 1.7211145162582397,
+      "mean_tok_crash": 26.965757369995117,
+      "std_tok_crash": 1.8302322626113892,
+      "mean_prompt_safe": 32.261817932128906,
+      "std_prompt_safe": 1.1743905544281006,
+      "mean_prompt_near_crash": 32.210899353027344,
+      "std_prompt_near_crash": 0.9763538837432861,
+      "mean_prompt_crash": 33.9448356628418,
+      "std_prompt_crash": 0.7458412051200867
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_scenario",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 30.259336471557617,
+      "std_own": 1.5063334703445435,
+      "mean_tok_safe": 23.614046096801758,
+      "std_tok_safe": 0.528938353061676,
+      "mean_tok_near_crash": 25.601118087768555,
+      "std_tok_near_crash": 2.1317827701568604,
+      "mean_tok_crash": 25.772071838378906,
+      "std_tok_crash": 2.385985851287842,
+      "mean_prompt_safe": 27.603742599487305,
+      "std_prompt_safe": 0.5761699676513672,
+      "mean_prompt_near_crash": 27.698074340820312,
+      "std_prompt_near_crash": 1.4405642747879028,
+      "mean_prompt_crash": 30.25933837890625,
+      "std_prompt_crash": 1.5063328742980957
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_scenario",
+      "label": "crash",
+      "n_frames": 8,
+      "mean_own": 29.40774917602539,
+      "std_own": 3.855226516723633,
+      "mean_tok_safe": 24.707977294921875,
+      "std_tok_safe": 0.4985095262527466,
+      "mean_tok_near_crash": 25.947912216186523,
+      "std_tok_near_crash": 2.2910008430480957,
+      "mean_tok_crash": 26.691770553588867,
+      "std_tok_crash": 3.0858500003814697,
+      "mean_prompt_safe": 28.103595733642578,
+      "std_prompt_safe": 2.2438464164733887,
+      "mean_prompt_near_crash": 28.718433380126953,
+      "std_prompt_near_crash": 0.5632812976837158,
+      "mean_prompt_crash": 29.407745361328125,
+      "std_prompt_crash": 3.855227470397949
+    },
+    {
+      "video_id": "Wc8mgFUCLsM",
+      "ptype": "P_scenario",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 27.804096221923828,
+      "std_own": 1.2768479585647583,
+      "mean_tok_safe": 23.096343994140625,
+      "std_tok_safe": 0.37396496534347534,
+      "mean_tok_near_crash": 23.839624404907227,
+      "std_tok_near_crash": 1.2788175344467163,
+      "mean_tok_crash": 24.288440704345703,
+      "std_tok_crash": 1.8042603731155396,
+      "mean_prompt_safe": 26.08241844177246,
+      "std_prompt_safe": 1.0626914501190186,
+      "mean_prompt_near_crash": 27.804096221923828,
+      "std_prompt_near_crash": 1.2768487930297852,
+      "mean_prompt_crash": 29.433834075927734,
+      "std_prompt_crash": 0.5042913556098938
+    },
+    {
+      "video_id": "ZPv9uEcdrGI",
+      "ptype": "P_scenario",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 31.901992797851562,
+      "std_own": 0.51615309715271,
+      "mean_tok_safe": 24.922449111938477,
+      "std_tok_safe": 1.159170389175415,
+      "mean_tok_near_crash": 27.011974334716797,
+      "std_tok_near_crash": 1.5191848278045654,
+      "mean_tok_crash": 26.563243865966797,
+      "std_tok_crash": 1.6366935968399048,
+      "mean_prompt_safe": 30.29017448425293,
+      "std_prompt_safe": 1.4875283241271973,
+      "mean_prompt_near_crash": 31.90199851989746,
+      "std_prompt_near_crash": 0.51615309715271,
+      "mean_prompt_crash": 28.204845428466797,
+      "std_prompt_crash": 1.119324803352356
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_scenario",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 26.447526931762695,
+      "std_own": 2.044247627258301,
+      "mean_tok_safe": 22.37740135192871,
+      "std_tok_safe": 0.7686086297035217,
+      "mean_tok_near_crash": 21.65580177307129,
+      "std_tok_near_crash": 1.2513996362686157,
+      "mean_tok_crash": 21.775745391845703,
+      "std_tok_crash": 1.1584993600845337,
+      "mean_prompt_safe": 28.218461990356445,
+      "std_prompt_safe": 1.5352766513824463,
+      "mean_prompt_near_crash": 26.447526931762695,
+      "std_prompt_near_crash": 2.044248104095459,
+      "mean_prompt_crash": 28.22039222717285,
+      "std_prompt_crash": 2.3175370693206787
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_scenario",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 31.286252975463867,
+      "std_own": 1.390755295753479,
+      "mean_tok_safe": 22.842374801635742,
+      "std_tok_safe": 0.9839391708374023,
+      "mean_tok_near_crash": 24.144485473632812,
+      "std_tok_near_crash": 1.4483888149261475,
+      "mean_tok_crash": 24.22527313232422,
+      "std_tok_crash": 1.1570165157318115,
+      "mean_prompt_safe": 30.099424362182617,
+      "std_prompt_safe": 1.3973243236541748,
+      "mean_prompt_near_crash": 31.286251068115234,
+      "std_prompt_near_crash": 1.3907556533813477,
+      "mean_prompt_crash": 24.27872085571289,
+      "std_prompt_crash": 1.0639911890029907
+    },
+    {
+      "video_id": "w6ZUtZ3yYeA",
+      "ptype": "P_scenario",
+      "label": "near_crash",
+      "n_frames": 8,
+      "mean_own": 31.517963409423828,
+      "std_own": 0.5496059656143188,
+      "mean_tok_safe": 22.326108932495117,
+      "std_tok_safe": 0.963270902633667,
+      "mean_tok_near_crash": 21.817378997802734,
+      "std_tok_near_crash": 1.0400389432907104,
+      "mean_tok_crash": 22.244604110717773,
+      "std_tok_crash": 1.2373300790786743,
+      "mean_prompt_safe": 31.081090927124023,
+      "std_prompt_safe": 2.056323766708374,
+      "mean_prompt_near_crash": 31.51796531677246,
+      "std_prompt_near_crash": 0.5496033430099487,
+      "mean_prompt_crash": 29.6914119720459,
+      "std_prompt_crash": 1.0776476860046387
+    },
+    {
+      "video_id": "-2PbLgrSGfc",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 29.540401458740234,
+      "std_own": 0.7651265263557434,
+      "mean_tok_safe": 25.458953857421875,
+      "std_tok_safe": 0.2849828004837036,
+      "mean_tok_near_crash": 26.8612060546875,
+      "std_tok_near_crash": 0.13161037862300873,
+      "mean_tok_crash": 26.808826446533203,
+      "std_tok_crash": 0.3392554819583893,
+      "mean_prompt_safe": 29.540401458740234,
+      "std_prompt_safe": 0.7651255130767822,
+      "mean_prompt_near_crash": 30.735273361206055,
+      "std_prompt_near_crash": 0.780949592590332,
+      "mean_prompt_crash": 29.80972671508789,
+      "std_prompt_crash": 0.6992282867431641
+    },
+    {
+      "video_id": "2ykoE_FyWpI",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 28.58183479309082,
+      "std_own": 1.1483349800109863,
+      "mean_tok_safe": 24.531869888305664,
+      "std_tok_safe": 0.4879111051559448,
+      "mean_tok_near_crash": 25.87696647644043,
+      "std_tok_near_crash": 0.6100200414657593,
+      "mean_tok_crash": 25.640295028686523,
+      "std_tok_crash": 0.6677600741386414,
+      "mean_prompt_safe": 28.581832885742188,
+      "std_prompt_safe": 1.1483356952667236,
+      "mean_prompt_near_crash": 28.275123596191406,
+      "std_prompt_near_crash": 0.975456953048706,
+      "mean_prompt_crash": 28.966716766357422,
+      "std_prompt_crash": 0.9855973720550537
+    },
+    {
+      "video_id": "NqiIYzetr6g",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 29.194252014160156,
+      "std_own": 1.7391022443771362,
+      "mean_tok_safe": 21.565113067626953,
+      "std_tok_safe": 0.6810746192932129,
+      "mean_tok_near_crash": 20.126480102539062,
+      "std_tok_near_crash": 0.8777433037757874,
+      "mean_tok_crash": 19.985471725463867,
+      "std_tok_crash": 0.6049173474311829,
+      "mean_prompt_safe": 29.194252014160156,
+      "std_prompt_safe": 1.7391012907028198,
+      "mean_prompt_near_crash": 29.111616134643555,
+      "std_prompt_near_crash": 1.6941919326782227,
+      "mean_prompt_crash": 27.95708656311035,
+      "std_prompt_crash": 1.2964407205581665
+    },
+    {
+      "video_id": "TIxUylmJeh4",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 33.08480453491211,
+      "std_own": 0.4741213023662567,
+      "mean_tok_safe": 23.052505493164062,
+      "std_tok_safe": 0.41140908002853394,
+      "mean_tok_near_crash": 22.56403350830078,
+      "std_tok_near_crash": 0.581300675868988,
+      "mean_tok_crash": 21.32961082458496,
+      "std_tok_crash": 0.5224472284317017,
+      "mean_prompt_safe": 33.08480453491211,
+      "std_prompt_safe": 0.47412243485450745,
+      "mean_prompt_near_crash": 28.571502685546875,
+      "std_prompt_near_crash": 0.9760713577270508,
+      "mean_prompt_crash": 24.084413528442383,
+      "std_prompt_crash": 1.268656611442566
+    },
+    {
+      "video_id": "Wc8mgFUCLsM",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 30.249448776245117,
+      "std_own": 1.629123330116272,
+      "mean_tok_safe": 22.731216430664062,
+      "std_tok_safe": 0.48919498920440674,
+      "mean_tok_near_crash": 22.61882781982422,
+      "std_tok_near_crash": 0.9429181814193726,
+      "mean_tok_crash": 21.486608505249023,
+      "std_tok_crash": 0.7625671029090881,
+      "mean_prompt_safe": 30.249446868896484,
+      "std_prompt_safe": 1.629124402999878,
+      "mean_prompt_near_crash": 30.02351951599121,
+      "std_prompt_near_crash": 1.4282615184783936,
+      "mean_prompt_crash": 28.888713836669922,
+      "std_prompt_crash": 1.7845336198806763
+    },
+    {
+      "video_id": "ZPv9uEcdrGI",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 32.748775482177734,
+      "std_own": 1.7073880434036255,
+      "mean_tok_safe": 24.22882080078125,
+      "std_tok_safe": 0.9254491925239563,
+      "mean_tok_near_crash": 24.214374542236328,
+      "std_tok_near_crash": 1.9909647703170776,
+      "mean_tok_crash": 22.47815704345703,
+      "std_tok_crash": 1.8565846681594849,
+      "mean_prompt_safe": 32.748779296875,
+      "std_prompt_safe": 1.7073882818222046,
+      "mean_prompt_near_crash": 29.754657745361328,
+      "std_prompt_near_crash": 2.0426089763641357,
+      "mean_prompt_crash": 27.92839813232422,
+      "std_prompt_crash": 0.88845294713974
+    },
+    {
+      "video_id": "mMImGwGp_LY",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 31.89979362487793,
+      "std_own": 1.0605454444885254,
+      "mean_tok_safe": 23.60893440246582,
+      "std_tok_safe": 0.7735508680343628,
+      "mean_tok_near_crash": 24.49753189086914,
+      "std_tok_near_crash": 1.4326810836791992,
+      "mean_tok_crash": 24.084341049194336,
+      "std_tok_crash": 1.3709827661514282,
+      "mean_prompt_safe": 31.899791717529297,
+      "std_prompt_safe": 1.0605441331863403,
+      "mean_prompt_near_crash": 29.72589874267578,
+      "std_prompt_near_crash": 1.1042006015777588,
+      "mean_prompt_crash": 31.199872970581055,
+      "std_prompt_crash": 1.1736667156219482
+    },
+    {
+      "video_id": "v3HZHgZfU6M",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 28.717039108276367,
+      "std_own": 2.2856202125549316,
+      "mean_tok_safe": 21.386375427246094,
+      "std_tok_safe": 0.6766433119773865,
+      "mean_tok_near_crash": 20.581497192382812,
+      "std_tok_near_crash": 1.2568572759628296,
+      "mean_tok_crash": 19.99812889099121,
+      "std_tok_crash": 1.0894052982330322,
+      "mean_prompt_safe": 28.717042922973633,
+      "std_prompt_safe": 2.2856204509735107,
+      "mean_prompt_near_crash": 25.491907119750977,
+      "std_prompt_near_crash": 3.147413730621338,
+      "mean_prompt_crash": 22.207746505737305,
+      "std_prompt_crash": 1.419822335243225
+    },
+    {
+      "video_id": "w6ZUtZ3yYeA",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 33.8966064453125,
+      "std_own": 0.6829413175582886,
+      "mean_tok_safe": 23.44983673095703,
+      "std_tok_safe": 0.4256974160671234,
+      "mean_tok_near_crash": 22.041662216186523,
+      "std_tok_near_crash": 0.4253966808319092,
+      "mean_tok_crash": 21.607067108154297,
+      "std_tok_crash": 0.5109343528747559,
+      "mean_prompt_safe": 33.896610260009766,
+      "std_prompt_safe": 0.6829408407211304,
+      "mean_prompt_near_crash": 33.05852508544922,
+      "std_prompt_near_crash": 0.4566558599472046,
+      "mean_prompt_crash": 30.299802780151367,
+      "std_prompt_crash": 0.6361556649208069
+    },
+    {
+      "video_id": "xuXJVzOMu0I",
+      "ptype": "P_scenario",
+      "label": "safe",
+      "n_frames": 8,
+      "mean_own": 33.70006561279297,
+      "std_own": 3.8864586353302,
+      "mean_tok_safe": 23.63327407836914,
+      "std_tok_safe": 1.4361791610717773,
+      "mean_tok_near_crash": 24.416702270507812,
+      "std_tok_near_crash": 0.8819997906684875,
+      "mean_tok_crash": 23.48515510559082,
+      "std_tok_crash": 1.083106279373169,
+      "mean_prompt_safe": 33.70006561279297,
+      "std_prompt_safe": 3.886457681655884,
+      "mean_prompt_near_crash": 29.795169830322266,
+      "std_prompt_near_crash": 3.7091822624206543,
+      "mean_prompt_crash": 24.970186233520508,
+      "std_prompt_crash": 2.3728115558624268
+    }
+  ],
+  "full": {
+    "P_label|crash|-2PbLgrSGfc": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          25.671302795410156,
+          21.633848190307617,
+          20.584964752197266,
+          21.1085147857666,
+          24.566190719604492,
+          25.479280471801758,
+          25.671308517456055
+        ],
+        [
+          25.378089904785156,
+          21.4135684967041,
+          20.098346710205078,
+          20.62773323059082,
+          24.225706100463867,
+          25.23542022705078,
+          25.378089904785156
+        ],
+        [
+          27.998506546020508,
+          22.26777458190918,
+          22.73344612121582,
+          23.255645751953125,
+          25.87682342529297,
+          27.44072723388672,
+          27.998506546020508
+        ],
+        [
+          31.950748443603516,
+          25.239198684692383,
+          27.408716201782227,
+          28.15172004699707,
+          29.529268264770508,
+          31.8458251953125,
+          31.950748443603516
+        ],
+        [
+          31.597978591918945,
+          24.02399444580078,
+          26.768503189086914,
+          27.11566734313965,
+          29.356760025024414,
+          31.597761154174805,
+          31.59797477722168
+        ],
+        [
+          31.93260955810547,
+          24.97287940979004,
+          27.10179901123047,
+          27.597490310668945,
+          29.382991790771484,
+          31.678693771362305,
+          31.93260955810547
+        ],
+        [
+          32.22926330566406,
+          24.545202255249023,
+          26.874834060668945,
+          27.395954132080078,
+          29.916595458984375,
+          32.26123809814453,
+          32.22926330566406
+        ],
+        [
+          31.5922908782959,
+          24.553813934326172,
+          27.07905387878418,
+          27.739912033081055,
+          29.619121551513672,
+          31.420494079589844,
+          31.5922908782959
+        ]
+      ]
+    },
+    "P_label|crash|2ykoE_FyWpI": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.77467918395996,
+          22.430458068847656,
+          22.496288299560547,
+          22.920671463012695,
+          28.27948570251465,
+          28.60308265686035,
+          27.77468490600586
+        ],
+        [
+          28.55352783203125,
+          22.857135772705078,
+          23.78563690185547,
+          23.859573364257812,
+          29.008594512939453,
+          29.450214385986328,
+          28.55353355407715
+        ],
+        [
+          31.641435623168945,
+          24.771331787109375,
+          28.08268928527832,
+          27.80529022216797,
+          29.944068908691406,
+          31.902738571166992,
+          31.641441345214844
+        ],
+        [
+          32.3723258972168,
+          24.616214752197266,
+          28.449565887451172,
+          28.53192710876465,
+          30.380271911621094,
+          32.45112228393555,
+          32.3723258972168
+        ],
+        [
+          32.114105224609375,
+          24.384580612182617,
+          28.026247024536133,
+          28.111045837402344,
+          29.802026748657227,
+          31.988176345825195,
+          32.114105224609375
+        ],
+        [
+          30.946584701538086,
+          24.68767547607422,
+          28.00982666015625,
+          28.392934799194336,
+          28.612895965576172,
+          30.819883346557617,
+          30.946584701538086
+        ],
+        [
+          32.34318161010742,
+          25.624412536621094,
+          28.49948501586914,
+          28.826570510864258,
+          30.177284240722656,
+          31.96820068359375,
+          32.343177795410156
+        ],
+        [
+          32.256656646728516,
+          24.875938415527344,
+          28.119335174560547,
+          28.37921905517578,
+          30.150545120239258,
+          32.14045715332031,
+          32.25666046142578
+        ]
+      ]
+    },
+    "P_label|crash|NqiIYzetr6g": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          24.866357803344727,
+          21.876070022583008,
+          20.175861358642578,
+          20.56174659729004,
+          23.70052719116211,
+          25.833803176879883,
+          24.866357803344727
+        ],
+        [
+          26.1840763092041,
+          22.08271026611328,
+          20.873828887939453,
+          21.332069396972656,
+          24.940013885498047,
+          27.158498764038086,
+          26.18408203125
+        ],
+        [
+          27.207773208618164,
+          23.147594451904297,
+          24.100372314453125,
+          24.940065383911133,
+          24.891141891479492,
+          27.77837562561035,
+          27.207773208618164
+        ],
+        [
+          29.933685302734375,
+          23.80217742919922,
+          24.5128116607666,
+          24.69269561767578,
+          28.61676788330078,
+          30.992244720458984,
+          29.933685302734375
+        ],
+        [
+          30.647281646728516,
+          25.85971450805664,
+          27.26937484741211,
+          27.698579788208008,
+          28.20192527770996,
+          30.928442001342773,
+          30.64728355407715
+        ],
+        [
+          29.997802734375,
+          25.7260799407959,
+          26.916656494140625,
+          27.573657989501953,
+          27.201553344726562,
+          30.189579010009766,
+          29.997802734375
+        ],
+        [
+          30.537309646606445,
+          25.727609634399414,
+          27.442514419555664,
+          27.786148071289062,
+          27.83173370361328,
+          30.860191345214844,
+          30.537307739257812
+        ],
+        [
+          30.23725128173828,
+          25.73424530029297,
+          27.43535614013672,
+          27.6911563873291,
+          27.692800521850586,
+          30.649169921875,
+          30.23725128173828
+        ]
+      ]
+    },
+    "P_label|crash|TIxUylmJeh4": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.25677490234375,
+          21.08738136291504,
+          21.157649993896484,
+          21.923095703125,
+          25.683597564697266,
+          26.31584930419922,
+          27.25677490234375
+        ],
+        [
+          26.754337310791016,
+          21.228294372558594,
+          20.985078811645508,
+          21.66501235961914,
+          25.507009506225586,
+          25.694734573364258,
+          26.754337310791016
+        ],
+        [
+          30.852928161621094,
+          23.746124267578125,
+          25.411117553710938,
+          26.084556579589844,
+          29.597198486328125,
+          30.261882781982422,
+          30.85292625427246
+        ],
+        [
+          31.12311363220215,
+          23.7316951751709,
+          26.917869567871094,
+          27.555471420288086,
+          29.76522445678711,
+          31.308048248291016,
+          31.12311363220215
+        ],
+        [
+          31.394546508789062,
+          24.18598747253418,
+          27.54477882385254,
+          27.965835571289062,
+          29.680908203125,
+          31.434038162231445,
+          31.39454460144043
+        ],
+        [
+          31.278398513793945,
+          24.609638214111328,
+          27.945650100708008,
+          28.85535430908203,
+          29.699691772460938,
+          31.05386734008789,
+          31.27840232849121
+        ],
+        [
+          32.1243896484375,
+          25.215837478637695,
+          28.05325698852539,
+          28.686676025390625,
+          30.182098388671875,
+          32.072513580322266,
+          32.1243896484375
+        ],
+        [
+          32.14155197143555,
+          24.939132690429688,
+          28.4664306640625,
+          29.10991859436035,
+          30.51251220703125,
+          31.738481521606445,
+          32.14154815673828
+        ]
+      ]
+    },
+    "P_label|crash|Wc8mgFUCLsM": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          31.277862548828125,
+          23.153072357177734,
+          23.721237182617188,
+          23.817100524902344,
+          30.155202865600586,
+          31.78341293334961,
+          31.27785873413086
+        ],
+        [
+          30.742752075195312,
+          23.496562957763672,
+          24.06532096862793,
+          23.926048278808594,
+          30.085159301757812,
+          31.285058975219727,
+          30.742752075195312
+        ],
+        [
+          32.08629608154297,
+          23.302364349365234,
+          24.383712768554688,
+          25.29744529724121,
+          30.671218872070312,
+          32.435874938964844,
+          32.08629608154297
+        ],
+        [
+          32.39394760131836,
+          24.05084991455078,
+          26.389657974243164,
+          27.04448127746582,
+          31.176382064819336,
+          32.669498443603516,
+          32.39394760131836
+        ],
+        [
+          33.66106033325195,
+          24.009523391723633,
+          27.337635040283203,
+          27.877981185913086,
+          31.707319259643555,
+          34.0900993347168,
+          33.66106033325195
+        ],
+        [
+          33.08120346069336,
+          23.619651794433594,
+          26.54541778564453,
+          27.210601806640625,
+          31.1798152923584,
+          33.70150375366211,
+          33.08120346069336
+        ],
+        [
+          33.91969299316406,
+          25.16139793395996,
+          28.651493072509766,
+          28.919071197509766,
+          31.73716926574707,
+          34.50334930419922,
+          33.9196891784668
+        ],
+        [
+          34.13191604614258,
+          27.0810604095459,
+          30.06405258178711,
+          30.520105361938477,
+          33.02092742919922,
+          34.206787109375,
+          34.13190841674805
+        ]
+      ]
+    },
+    "P_label|crash|ZPv9uEcdrGI": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.808887481689453,
+          21.8215274810791,
+          21.848522186279297,
+          22.198978424072266,
+          26.646343231201172,
+          27.91566276550293,
+          27.808889389038086
+        ],
+        [
+          29.724994659423828,
+          22.372770309448242,
+          23.86098289489746,
+          24.315244674682617,
+          28.103336334228516,
+          29.982746124267578,
+          29.724994659423828
+        ],
+        [
+          33.908485412597656,
+          26.512348175048828,
+          30.200422286987305,
+          29.845428466796875,
+          31.959766387939453,
+          33.73564910888672,
+          33.90848159790039
+        ],
+        [
+          33.36573791503906,
+          25.032684326171875,
+          28.59855842590332,
+          28.645742416381836,
+          31.295534133911133,
+          33.10566711425781,
+          33.36573791503906
+        ],
+        [
+          33.69953536987305,
+          25.113719940185547,
+          28.494352340698242,
+          28.78837013244629,
+          31.006664276123047,
+          33.1275749206543,
+          33.69953155517578
+        ],
+        [
+          33.43575668334961,
+          26.068767547607422,
+          29.451942443847656,
+          29.515647888183594,
+          31.012483596801758,
+          32.82432174682617,
+          33.43574905395508
+        ],
+        [
+          33.094970703125,
+          24.71472930908203,
+          28.16925048828125,
+          28.37080955505371,
+          30.345449447631836,
+          32.65355682373047,
+          33.09497833251953
+        ],
+        [
+          34.75319290161133,
+          26.31072425842285,
+          30.272987365722656,
+          30.06212043762207,
+          32.50572204589844,
+          34.49388885498047,
+          34.7531852722168
+        ]
+      ]
+    },
+    "P_label|crash|mMImGwGp_LY": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          25.98369789123535,
+          22.873428344726562,
+          22.6854305267334,
+          21.813573837280273,
+          26.2846736907959,
+          26.28612518310547,
+          25.98369789123535
+        ],
+        [
+          26.947481155395508,
+          23.25313949584961,
+          23.365461349487305,
+          22.656063079833984,
+          27.101049423217773,
+          27.466323852539062,
+          26.947486877441406
+        ],
+        [
+          26.24429702758789,
+          21.86849021911621,
+          21.855491638183594,
+          21.29922866821289,
+          26.309162139892578,
+          26.559478759765625,
+          26.244300842285156
+        ],
+        [
+          30.024656295776367,
+          22.72216033935547,
+          23.50847816467285,
+          23.222869873046875,
+          29.56857681274414,
+          30.630462646484375,
+          30.024654388427734
+        ],
+        [
+          30.586788177490234,
+          23.003738403320312,
+          24.35086441040039,
+          24.738534927368164,
+          29.35763931274414,
+          30.012908935546875,
+          30.586788177490234
+        ],
+        [
+          28.442201614379883,
+          23.198362350463867,
+          24.614105224609375,
+          24.052474975585938,
+          27.72918701171875,
+          27.746906280517578,
+          28.442197799682617
+        ],
+        [
+          28.51443862915039,
+          22.554141998291016,
+          24.679616928100586,
+          24.79448127746582,
+          27.291536331176758,
+          28.21585464477539,
+          28.514436721801758
+        ],
+        [
+          30.393970489501953,
+          23.072824478149414,
+          24.471908569335938,
+          23.1237850189209,
+          29.763442993164062,
+          29.9595890045166,
+          30.393970489501953
+        ]
+      ]
+    },
+    "P_label|crash|v3HZHgZfU6M": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as traffic compresses rapidly and the gap closes to a dangerous margin before recovery.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          25.769603729248047,
+          21.51531982421875,
+          21.896028518676758,
+          20.861635208129883,
+          23.33765411376953,
+          24.64282989501953,
+          25.769603729248047
+        ],
+        [
+          25.869802474975586,
+          21.75435447692871,
+          22.30025291442871,
+          21.336406707763672,
+          23.468910217285156,
+          24.664159774780273,
+          25.86979866027832
+        ],
+        [
+          26.335556030273438,
+          21.99326515197754,
+          22.846227645874023,
+          21.565277099609375,
+          23.998737335205078,
+          24.99781036376953,
+          26.335556030273438
+        ],
+        [
+          31.36700439453125,
+          24.891191482543945,
+          27.740013122558594,
+          27.678874969482422,
+          28.867916107177734,
+          30.885087966918945,
+          31.36700439453125
+        ],
+        [
+          31.623977661132812,
+          23.745576858520508,
+          25.734010696411133,
+          25.85384178161621,
+          27.981433868408203,
+          30.797090530395508,
+          31.623971939086914
+        ],
+        [
+          32.01552200317383,
+          24.401201248168945,
+          27.258014678955078,
+          27.08769989013672,
+          28.417816162109375,
+          31.308090209960938,
+          32.01551818847656
+        ],
+        [
+          32.02914047241211,
+          25.341602325439453,
+          28.744415283203125,
+          27.601551055908203,
+          28.666290283203125,
+          31.543498992919922,
+          32.02913284301758
+        ],
+        [
+          30.44044303894043,
+          24.55668067932129,
+          27.95832061767578,
+          26.90652847290039,
+          27.27052879333496,
+          29.885086059570312,
+          30.44044303894043
+        ]
+      ]
+    },
+    "P_label|crash|w6ZUtZ3yYeA": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.5423641204834,
+          21.356088638305664,
+          21.07300567626953,
+          22.237171173095703,
+          27.39672088623047,
+          28.345458984375,
+          27.5423641204834
+        ],
+        [
+          29.040008544921875,
+          22.32495880126953,
+          22.6584415435791,
+          23.097414016723633,
+          28.55497932434082,
+          29.76944351196289,
+          29.040008544921875
+        ],
+        [
+          31.67812728881836,
+          22.960195541381836,
+          24.729656219482422,
+          25.599857330322266,
+          30.33820343017578,
+          32.13575744628906,
+          31.678131103515625
+        ],
+        [
+          32.08052062988281,
+          23.524707794189453,
+          26.218324661254883,
+          27.563461303710938,
+          30.146339416503906,
+          31.930233001708984,
+          32.08052062988281
+        ],
+        [
+          34.106021881103516,
+          25.35474395751953,
+          28.15266227722168,
+          29.174530029296875,
+          31.93547821044922,
+          33.90515899658203,
+          34.10603332519531
+        ],
+        [
+          34.21885299682617,
+          25.615402221679688,
+          29.150739669799805,
+          29.49293327331543,
+          31.77291488647461,
+          33.87701416015625,
+          34.218849182128906
+        ],
+        [
+          33.40441131591797,
+          24.731843948364258,
+          27.854299545288086,
+          28.32748031616211,
+          30.992900848388672,
+          33.335716247558594,
+          33.4044075012207
+        ],
+        [
+          33.53850173950195,
+          24.537677764892578,
+          27.73330307006836,
+          28.316205978393555,
+          31.6318302154541,
+          33.48017501831055,
+          33.53849792480469
+        ]
+      ]
+    },
+    "P_label|crash|xuXJVzOMu0I": {
+      "texts": {
+        "own": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          31.378761291503906,
+          25.834545135498047,
+          26.986841201782227,
+          25.837779998779297,
+          32.73257064819336,
+          32.51945114135742,
+          31.37876319885254
+        ],
+        [
+          29.754432678222656,
+          24.850509643554688,
+          25.446569442749023,
+          25.055906295776367,
+          30.603153228759766,
+          31.2319393157959,
+          29.754430770874023
+        ],
+        [
+          33.02897262573242,
+          25.84163475036621,
+          27.5882511138916,
+          27.765047073364258,
+          32.4151496887207,
+          34.12760543823242,
+          33.02897262573242
+        ],
+        [
+          33.62688446044922,
+          26.63165855407715,
+          28.903425216674805,
+          29.212451934814453,
+          32.225929260253906,
+          34.207542419433594,
+          33.62689208984375
+        ],
+        [
+          33.59670639038086,
+          27.105358123779297,
+          28.976314544677734,
+          29.284849166870117,
+          31.704313278198242,
+          33.94160461425781,
+          33.59670639038086
+        ],
+        [
+          31.421083450317383,
+          26.75894546508789,
+          29.343486785888672,
+          29.40498924255371,
+          29.397626876831055,
+          31.68876838684082,
+          31.421083450317383
+        ],
+        [
+          32.08320236206055,
+          27.072965621948242,
+          30.442440032958984,
+          29.924158096313477,
+          30.314285278320312,
+          32.459659576416016,
+          32.08320236206055
+        ],
+        [
+          31.71737289428711,
+          26.863414764404297,
+          29.275545120239258,
+          29.645448684692383,
+          29.696550369262695,
+          31.66698455810547,
+          31.717378616333008
+        ]
+      ]
+    },
+    "P_label|near_crash|-2PbLgrSGfc": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          28.72515296936035,
+          23.063077926635742,
+          21.437402725219727,
+          22.186847686767578,
+          29.167139053344727,
+          28.72515869140625,
+          28.563684463500977
+        ],
+        [
+          28.268888473510742,
+          21.87730598449707,
+          20.931243896484375,
+          21.856637954711914,
+          27.58248519897461,
+          28.26888656616211,
+          27.867767333984375
+        ],
+        [
+          32.788734436035156,
+          24.495765686035156,
+          27.013652801513672,
+          27.890214920043945,
+          31.542999267578125,
+          32.788734436035156,
+          32.31611251831055
+        ],
+        [
+          33.637611389160156,
+          23.86897087097168,
+          24.413429260253906,
+          25.324695587158203,
+          31.754976272583008,
+          33.637611389160156,
+          32.4124870300293
+        ],
+        [
+          33.32204818725586,
+          24.076784133911133,
+          25.323312759399414,
+          26.211776733398438,
+          31.619691848754883,
+          33.32204818725586,
+          32.21461868286133
+        ],
+        [
+          32.57015609741211,
+          22.524185180664062,
+          23.333251953125,
+          23.900859832763672,
+          31.18084144592285,
+          32.570159912109375,
+          31.732851028442383
+        ],
+        [
+          32.79719543457031,
+          22.932729721069336,
+          24.298290252685547,
+          24.783397674560547,
+          30.566852569580078,
+          32.79719161987305,
+          31.721513748168945
+        ],
+        [
+          34.694435119628906,
+          23.507946014404297,
+          25.111305236816406,
+          26.187267303466797,
+          32.691890716552734,
+          34.694435119628906,
+          34.067752838134766
+        ]
+      ]
+    },
+    "P_label|near_crash|NqiIYzetr6g": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          26.854955673217773,
+          21.000125885009766,
+          20.58913803100586,
+          20.256383895874023,
+          24.455825805664062,
+          26.854949951171875,
+          26.045089721679688
+        ],
+        [
+          26.41490364074707,
+          20.81511878967285,
+          20.53954315185547,
+          20.21642303466797,
+          23.85610580444336,
+          26.414897918701172,
+          25.55113410949707
+        ],
+        [
+          27.952510833740234,
+          21.679325103759766,
+          21.75497055053711,
+          20.88544464111328,
+          26.173484802246094,
+          27.952510833740234,
+          27.163087844848633
+        ],
+        [
+          30.44655990600586,
+          21.63016700744629,
+          22.114330291748047,
+          22.634876251220703,
+          27.921730041503906,
+          30.446561813354492,
+          29.978185653686523
+        ],
+        [
+          29.5496883392334,
+          21.33548355102539,
+          20.923175811767578,
+          21.323225021362305,
+          27.31899642944336,
+          29.54969024658203,
+          28.628986358642578
+        ],
+        [
+          28.084531784057617,
+          21.50802230834961,
+          20.670536041259766,
+          20.872812271118164,
+          25.457603454589844,
+          28.08452796936035,
+          26.837604522705078
+        ],
+        [
+          27.331178665161133,
+          21.52439308166504,
+          20.624221801757812,
+          20.949722290039062,
+          24.848388671875,
+          27.331172943115234,
+          26.3732967376709
+        ],
+        [
+          28.898828506469727,
+          21.520462036132812,
+          21.445148468017578,
+          22.027597427368164,
+          26.1361083984375,
+          28.898832321166992,
+          27.80284881591797
+        ]
+      ]
+    },
+    "P_label|near_crash|TIxUylmJeh4": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          29.854434967041016,
+          23.57843589782715,
+          24.339487075805664,
+          22.86554527282715,
+          29.051483154296875,
+          29.854434967041016,
+          28.934972763061523
+        ],
+        [
+          27.523792266845703,
+          22.6707763671875,
+          22.53924560546875,
+          21.337234497070312,
+          26.478429794311523,
+          27.5237979888916,
+          26.15444564819336
+        ],
+        [
+          32.220802307128906,
+          23.118356704711914,
+          25.158187866210938,
+          24.217824935913086,
+          29.630352020263672,
+          32.22080612182617,
+          31.05408477783203
+        ],
+        [
+          29.587278366088867,
+          22.05035972595215,
+          23.19715118408203,
+          23.08640480041504,
+          27.708587646484375,
+          29.5872859954834,
+          28.606307983398438
+        ],
+        [
+          33.74905014038086,
+          25.897411346435547,
+          29.000228881835938,
+          28.718494415283203,
+          30.98016929626465,
+          33.74905014038086,
+          33.127532958984375
+        ],
+        [
+          30.754297256469727,
+          23.029590606689453,
+          25.708457946777344,
+          25.633806228637695,
+          27.839521408081055,
+          30.754302978515625,
+          30.528291702270508
+        ],
+        [
+          33.254337310791016,
+          24.69719696044922,
+          27.632205963134766,
+          27.65872573852539,
+          30.468976974487305,
+          33.254329681396484,
+          32.596736907958984
+        ],
+        [
+          32.34070587158203,
+          24.65606117248535,
+          27.692913055419922,
+          27.130943298339844,
+          30.301517486572266,
+          32.34070587158203,
+          31.539762496948242
+        ]
+      ]
+    },
+    "P_label|near_crash|Wc8mgFUCLsM": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          25.138591766357422,
+          20.892004013061523,
+          19.934062957763672,
+          19.951688766479492,
+          23.005613327026367,
+          25.13858985900879,
+          25.34567642211914
+        ],
+        [
+          24.08591651916504,
+          20.94158172607422,
+          20.284767150878906,
+          20.867708206176758,
+          22.120088577270508,
+          24.085914611816406,
+          24.554126739501953
+        ],
+        [
+          29.313692092895508,
+          22.671688079833984,
+          24.609651565551758,
+          25.181161880493164,
+          25.839609146118164,
+          29.313690185546875,
+          29.37564468383789
+        ],
+        [
+          27.804136276245117,
+          21.82084083557129,
+          22.427064895629883,
+          22.942955017089844,
+          24.65140151977539,
+          27.804136276245117,
+          27.557510375976562
+        ],
+        [
+          27.793766021728516,
+          22.042638778686523,
+          23.208086013793945,
+          23.928646087646484,
+          24.76702117919922,
+          27.79376220703125,
+          27.886470794677734
+        ],
+        [
+          27.952537536621094,
+          22.3397159576416,
+          22.92945671081543,
+          23.764493942260742,
+          24.817991256713867,
+          27.952531814575195,
+          27.93383026123047
+        ],
+        [
+          28.962024688720703,
+          23.734519958496094,
+          24.616899490356445,
+          25.408855438232422,
+          26.23221206665039,
+          28.962024688720703,
+          29.17848014831543
+        ],
+        [
+          29.523395538330078,
+          24.4467716217041,
+          26.017013549804688,
+          25.11703872680664,
+          29.287982940673828,
+          29.523399353027344,
+          29.73883819580078
+        ]
+      ]
+    },
+    "P_label|near_crash|ZPv9uEcdrGI": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          28.84831428527832,
+          22.702302932739258,
+          19.84122657775879,
+          20.616779327392578,
+          28.220102310180664,
+          28.848318099975586,
+          28.007614135742188
+        ],
+        [
+          27.730953216552734,
+          21.959867477416992,
+          22.55167579650879,
+          23.385847091674805,
+          26.268035888671875,
+          27.730953216552734,
+          27.236080169677734
+        ],
+        [
+          31.99030113220215,
+          24.065265655517578,
+          26.29475975036621,
+          27.25019073486328,
+          30.4104061126709,
+          31.990299224853516,
+          32.13963317871094
+        ],
+        [
+          30.77385139465332,
+          24.37862777709961,
+          26.697742462158203,
+          27.275875091552734,
+          28.69032859802246,
+          30.773853302001953,
+          31.145465850830078
+        ],
+        [
+          31.454578399658203,
+          24.75346565246582,
+          27.913856506347656,
+          28.145111083984375,
+          28.723812103271484,
+          31.454574584960938,
+          31.301963806152344
+        ],
+        [
+          30.978397369384766,
+          23.538333892822266,
+          24.67356300354004,
+          24.621135711669922,
+          29.186080932617188,
+          30.9783935546875,
+          31.0355281829834
+        ],
+        [
+          31.954246520996094,
+          23.586721420288086,
+          25.266319274902344,
+          24.898361206054688,
+          31.628482818603516,
+          31.95424461364746,
+          31.995412826538086
+        ],
+        [
+          31.749996185302734,
+          23.891990661621094,
+          24.96398162841797,
+          24.147254943847656,
+          32.437217712402344,
+          31.75,
+          31.748851776123047
+        ]
+      ]
+    },
+    "P_label|near_crash|mMImGwGp_LY": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.21574592590332,
+          21.487504959106445,
+          21.30251693725586,
+          21.856731414794922,
+          25.688278198242188,
+          27.21574592590332,
+          27.354087829589844
+        ],
+        [
+          27.529733657836914,
+          21.127840042114258,
+          21.33321189880371,
+          21.9792423248291,
+          25.771825790405273,
+          27.529733657836914,
+          27.5721378326416
+        ],
+        [
+          28.640583038330078,
+          21.989599227905273,
+          23.84709930419922,
+          23.930200576782227,
+          27.12675666809082,
+          28.640586853027344,
+          28.62594223022461
+        ],
+        [
+          29.858184814453125,
+          23.11517333984375,
+          25.078115463256836,
+          25.587791442871094,
+          28.254531860351562,
+          29.858184814453125,
+          29.739728927612305
+        ],
+        [
+          31.310134887695312,
+          23.067119598388672,
+          25.273990631103516,
+          25.834741592407227,
+          29.269786834716797,
+          31.310134887695312,
+          31.159591674804688
+        ],
+        [
+          27.32745361328125,
+          22.388565063476562,
+          21.943294525146484,
+          22.880582809448242,
+          26.919391632080078,
+          27.32745361328125,
+          27.75071907043457
+        ],
+        [
+          29.02463722229004,
+          22.3016357421875,
+          22.754880905151367,
+          22.615467071533203,
+          28.233844757080078,
+          29.024633407592773,
+          29.319843292236328
+        ],
+        [
+          28.198760986328125,
+          22.843093872070312,
+          23.564104080200195,
+          22.780454635620117,
+          27.704811096191406,
+          28.19875717163086,
+          28.261045455932617
+        ]
+      ]
+    },
+    "P_label|near_crash|v3HZHgZfU6M": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as traffic compresses rapidly and the gap closes to a dangerous margin before recovery.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as traffic compresses rapidly and the gap closes to a dangerous margin before recovery.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          24.487314224243164,
+          22.368045806884766,
+          23.87270736694336,
+          22.673803329467773,
+          25.127946853637695,
+          24.487314224243164,
+          24.76276397705078
+        ],
+        [
+          27.519214630126953,
+          22.22443389892578,
+          22.287126541137695,
+          22.743724822998047,
+          26.704193115234375,
+          27.519210815429688,
+          27.339914321899414
+        ],
+        [
+          26.14046859741211,
+          22.182954788208008,
+          22.963783264160156,
+          23.01594352722168,
+          25.378189086914062,
+          26.14046859741211,
+          26.28238296508789
+        ],
+        [
+          27.154361724853516,
+          21.683130264282227,
+          22.861177444458008,
+          23.109283447265625,
+          26.404056549072266,
+          27.154361724853516,
+          27.201324462890625
+        ],
+        [
+          24.344158172607422,
+          21.115028381347656,
+          21.31589698791504,
+          21.903547286987305,
+          23.92965316772461,
+          24.344158172607422,
+          24.78946304321289
+        ],
+        [
+          25.532060623168945,
+          21.916641235351562,
+          22.44304656982422,
+          22.650218963623047,
+          24.689334869384766,
+          25.532054901123047,
+          25.608104705810547
+        ],
+        [
+          25.92097282409668,
+          21.474851608276367,
+          22.09757423400879,
+          22.49822235107422,
+          25.330495834350586,
+          25.920974731445312,
+          26.36061668395996
+        ],
+        [
+          27.00935935974121,
+          21.261512756347656,
+          22.180219650268555,
+          22.794204711914062,
+          26.376829147338867,
+          27.009353637695312,
+          27.044143676757812
+        ]
+      ]
+    },
+    "P_label|near_crash|w6ZUtZ3yYeA": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          25.18571662902832,
+          20.31696128845215,
+          20.316709518432617,
+          21.250633239746094,
+          23.955894470214844,
+          25.18571662902832,
+          24.308181762695312
+        ],
+        [
+          27.800243377685547,
+          21.99372100830078,
+          23.703128814697266,
+          23.850175857543945,
+          26.488506317138672,
+          27.800243377685547,
+          27.470054626464844
+        ],
+        [
+          32.75591278076172,
+          25.046180725097656,
+          26.84783363342285,
+          28.225921630859375,
+          31.528837203979492,
+          32.75592041015625,
+          32.21677780151367
+        ],
+        [
+          31.138437271118164,
+          23.159828186035156,
+          24.309783935546875,
+          26.068708419799805,
+          30.190980911254883,
+          31.138437271118164,
+          30.801916122436523
+        ],
+        [
+          29.081323623657227,
+          21.891563415527344,
+          21.774473190307617,
+          23.4561767578125,
+          28.496309280395508,
+          29.081321716308594,
+          28.827316284179688
+        ],
+        [
+          30.30213165283203,
+          22.777652740478516,
+          22.700029373168945,
+          24.06667709350586,
+          29.630094528198242,
+          30.302125930786133,
+          30.09486198425293
+        ],
+        [
+          31.149667739868164,
+          22.690134048461914,
+          23.084102630615234,
+          24.188936233520508,
+          30.420381546020508,
+          31.1496639251709,
+          31.321706771850586
+        ],
+        [
+          30.985754013061523,
+          22.445968627929688,
+          23.033233642578125,
+          24.267807006835938,
+          30.329673767089844,
+          30.98575210571289,
+          30.962890625
+        ]
+      ]
+    },
+    "P_label|near_crash|xuXJVzOMu0I": {
+      "texts": {
+        "own": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          27.896148681640625,
+          23.126808166503906,
+          22.35321617126465,
+          21.394969940185547,
+          28.175914764404297,
+          27.89614486694336,
+          27.527862548828125
+        ],
+        [
+          28.191524505615234,
+          23.148784637451172,
+          22.29510498046875,
+          21.537389755249023,
+          28.265167236328125,
+          28.191524505615234,
+          27.62533187866211
+        ],
+        [
+          26.63794708251953,
+          23.671812057495117,
+          24.095844268798828,
+          23.69631004333496,
+          26.034046173095703,
+          26.63795280456543,
+          26.12087631225586
+        ],
+        [
+          30.36040687561035,
+          22.811185836791992,
+          24.565492630004883,
+          25.559669494628906,
+          28.280317306518555,
+          30.360408782958984,
+          29.24267578125
+        ],
+        [
+          29.932281494140625,
+          22.550127029418945,
+          23.959503173828125,
+          25.28085708618164,
+          28.168476104736328,
+          29.932287216186523,
+          29.078166961669922
+        ],
+        [
+          30.808507919311523,
+          22.946762084960938,
+          24.710481643676758,
+          25.797191619873047,
+          28.614669799804688,
+          30.808502197265625,
+          29.468799591064453
+        ],
+        [
+          31.280664443969727,
+          23.547901153564453,
+          25.839841842651367,
+          26.78003692626953,
+          28.879737854003906,
+          31.28066062927246,
+          30.299264907836914
+        ],
+        [
+          31.523847579956055,
+          23.689136505126953,
+          25.83870506286621,
+          26.91022491455078,
+          29.287212371826172,
+          31.523853302001953,
+          30.572921752929688
+        ]
+      ]
+    },
+    "P_label|safe|-2PbLgrSGfc": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          30.6463680267334,
+          24.359468460083008,
+          23.6190185546875,
+          23.90044403076172,
+          30.646371841430664,
+          30.574344635009766,
+          30.49045181274414
+        ],
+        [
+          31.013341903686523,
+          23.40644073486328,
+          22.03592872619629,
+          22.191598892211914,
+          31.013341903686523,
+          31.335575103759766,
+          30.631423950195312
+        ],
+        [
+          31.775691986083984,
+          23.76932144165039,
+          22.561248779296875,
+          22.848350524902344,
+          31.77568817138672,
+          32.43888854980469,
+          31.62841796875
+        ],
+        [
+          30.263229370117188,
+          23.780263900756836,
+          22.371816635131836,
+          21.99713897705078,
+          30.263233184814453,
+          31.01629638671875,
+          30.099327087402344
+        ],
+        [
+          29.456195831298828,
+          23.374977111816406,
+          22.082944869995117,
+          21.749433517456055,
+          29.456192016601562,
+          30.42728614807129,
+          29.2642822265625
+        ],
+        [
+          30.00119400024414,
+          23.42625617980957,
+          21.37836456298828,
+          21.402177810668945,
+          30.00119972229004,
+          30.75348472595215,
+          29.95100975036621
+        ],
+        [
+          30.06792640686035,
+          23.654085159301758,
+          21.691387176513672,
+          21.759765625,
+          30.067920684814453,
+          30.602705001831055,
+          29.949420928955078
+        ],
+        [
+          31.05064582824707,
+          24.318071365356445,
+          22.36957550048828,
+          22.239246368408203,
+          31.05065155029297,
+          31.650510787963867,
+          30.609529495239258
+        ]
+      ]
+    },
+    "P_label|safe|2ykoE_FyWpI": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          30.345335006713867,
+          23.87632942199707,
+          25.451934814453125,
+          24.68904685974121,
+          30.345335006713867,
+          30.106603622436523,
+          29.402151107788086
+        ],
+        [
+          29.418893814086914,
+          23.1864070892334,
+          25.00917625427246,
+          24.20582389831543,
+          29.418893814086914,
+          29.201704025268555,
+          28.571928024291992
+        ],
+        [
+          29.585704803466797,
+          23.373046875,
+          25.355464935302734,
+          24.656169891357422,
+          29.58570671081543,
+          29.519742965698242,
+          29.084699630737305
+        ],
+        [
+          29.94394874572754,
+          23.490577697753906,
+          25.057754516601562,
+          24.269332885742188,
+          29.943946838378906,
+          29.624069213867188,
+          29.064226150512695
+        ],
+        [
+          31.93752098083496,
+          24.603614807128906,
+          26.304149627685547,
+          25.676265716552734,
+          31.93752098083496,
+          31.54035758972168,
+          31.045944213867188
+        ],
+        [
+          30.80596351623535,
+          24.447816848754883,
+          26.180240631103516,
+          25.1466007232666,
+          30.80596351623535,
+          30.5025577545166,
+          30.100616455078125
+        ],
+        [
+          30.592859268188477,
+          23.79966163635254,
+          25.59391212463379,
+          24.32452964782715,
+          30.592864990234375,
+          30.58687973022461,
+          30.11651039123535
+        ],
+        [
+          30.50294303894043,
+          23.863018035888672,
+          25.802976608276367,
+          24.843910217285156,
+          30.50294303894043,
+          30.752798080444336,
+          30.216344833374023
+        ]
+      ]
+    },
+    "P_label|safe|NqiIYzetr6g": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle maintains a calm pace and anticipates surrounding traffic.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          29.017513275146484,
+          26.162506103515625,
+          23.97504997253418,
+          24.37245750427246,
+          29.017507553100586,
+          30.71668243408203,
+          29.66244125366211
+        ],
+        [
+          31.080223083496094,
+          24.14801597595215,
+          25.883575439453125,
+          24.58588409423828,
+          31.080228805541992,
+          30.574995040893555,
+          30.041500091552734
+        ],
+        [
+          31.647480010986328,
+          23.987548828125,
+          25.55344009399414,
+          24.362260818481445,
+          31.64748191833496,
+          30.93191909790039,
+          30.240894317626953
+        ],
+        [
+          31.06016731262207,
+          24.39333724975586,
+          25.07268524169922,
+          24.12421989440918,
+          31.06016731262207,
+          30.714433670043945,
+          30.397462844848633
+        ],
+        [
+          31.059146881103516,
+          24.43832778930664,
+          25.931215286254883,
+          24.702621459960938,
+          31.059146881103516,
+          31.11461639404297,
+          30.540966033935547
+        ],
+        [
+          32.02642822265625,
+          25.232229232788086,
+          26.77365493774414,
+          25.82933235168457,
+          32.02642822265625,
+          31.795433044433594,
+          31.202533721923828
+        ],
+        [
+          31.770505905151367,
+          24.220626831054688,
+          26.240163803100586,
+          24.966367721557617,
+          31.770505905151367,
+          31.454790115356445,
+          30.84375762939453
+        ],
+        [
+          32.02570343017578,
+          24.189167022705078,
+          25.958215713500977,
+          24.81370735168457,
+          32.025699615478516,
+          31.78483009338379,
+          31.09670639038086
+        ]
+      ]
+    },
+    "P_label|safe|TIxUylmJeh4": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          29.01035499572754,
+          22.132497787475586,
+          21.407617568969727,
+          21.663209915161133,
+          29.010358810424805,
+          28.383874893188477,
+          28.298667907714844
+        ],
+        [
+          29.010862350463867,
+          21.769081115722656,
+          21.231048583984375,
+          21.152400970458984,
+          29.010862350463867,
+          28.620725631713867,
+          28.297243118286133
+        ],
+        [
+          29.548770904541016,
+          22.054244995117188,
+          21.85750389099121,
+          21.57139778137207,
+          29.54877281188965,
+          29.377655029296875,
+          28.64089584350586
+        ],
+        [
+          29.03664779663086,
+          22.301971435546875,
+          22.455062866210938,
+          22.08724594116211,
+          29.036643981933594,
+          28.95628547668457,
+          28.373733520507812
+        ],
+        [
+          29.375558853149414,
+          22.89366340637207,
+          23.301982879638672,
+          22.86192512512207,
+          29.375558853149414,
+          29.626953125,
+          29.589611053466797
+        ],
+        [
+          29.43987464904785,
+          22.077777862548828,
+          23.117191314697266,
+          22.4239501953125,
+          29.439878463745117,
+          29.452091217041016,
+          29.53929328918457
+        ],
+        [
+          26.610111236572266,
+          21.322494506835938,
+          22.360307693481445,
+          21.852039337158203,
+          26.610111236572266,
+          26.970233917236328,
+          26.90311622619629
+        ],
+        [
+          27.049684524536133,
+          22.365671157836914,
+          23.61197853088379,
+          23.402345657348633,
+          27.049684524536133,
+          26.954387664794922,
+          27.618976593017578
+        ]
+      ]
+    },
+    "P_label|safe|ZPv9uEcdrGI": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-swipe collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          30.80739974975586,
+          24.574535369873047,
+          22.946748733520508,
+          22.846094131469727,
+          30.807395935058594,
+          30.740049362182617,
+          30.67798614501953
+        ],
+        [
+          27.88917350769043,
+          23.390602111816406,
+          22.295839309692383,
+          22.295330047607422,
+          27.88917350769043,
+          29.458417892456055,
+          28.945585250854492
+        ],
+        [
+          25.084840774536133,
+          21.313682556152344,
+          20.908740997314453,
+          20.81810188293457,
+          25.084840774536133,
+          26.29290771484375,
+          26.002412796020508
+        ],
+        [
+          25.70711898803711,
+          22.627857208251953,
+          21.91864013671875,
+          20.642894744873047,
+          25.70711898803711,
+          26.822237014770508,
+          26.465850830078125
+        ],
+        [
+          25.78213882446289,
+          22.19182777404785,
+          21.20511245727539,
+          20.30649757385254,
+          25.782140731811523,
+          26.26288604736328,
+          26.03308868408203
+        ],
+        [
+          28.654611587524414,
+          23.316884994506836,
+          22.974428176879883,
+          22.106386184692383,
+          28.654611587524414,
+          28.665287017822266,
+          28.451173782348633
+        ],
+        [
+          27.518171310424805,
+          23.73147964477539,
+          23.898942947387695,
+          22.678285598754883,
+          27.51816749572754,
+          27.221492767333984,
+          27.114734649658203
+        ],
+        [
+          28.099632263183594,
+          23.932960510253906,
+          23.445083618164062,
+          22.321043014526367,
+          28.099628448486328,
+          28.056859970092773,
+          27.527475357055664
+        ]
+      ]
+    },
+    "P_label|safe|mMImGwGp_LY": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          29.329849243164062,
+          22.66451644897461,
+          21.192411422729492,
+          20.430009841918945,
+          29.329849243164062,
+          29.576025009155273,
+          28.626054763793945
+        ],
+        [
+          28.533605575561523,
+          22.21677589416504,
+          20.777128219604492,
+          20.462045669555664,
+          28.533601760864258,
+          28.81231689453125,
+          27.75090980529785
+        ],
+        [
+          26.2197265625,
+          21.934465408325195,
+          19.9396915435791,
+          19.765169143676758,
+          26.21971893310547,
+          26.773378372192383,
+          25.279850006103516
+        ],
+        [
+          25.233062744140625,
+          19.99907112121582,
+          19.116731643676758,
+          18.938932418823242,
+          25.233062744140625,
+          26.93818473815918,
+          25.45718002319336
+        ],
+        [
+          26.319562911987305,
+          20.517915725708008,
+          19.658470153808594,
+          19.82659339904785,
+          26.319562911987305,
+          27.405447006225586,
+          26.215435028076172
+        ],
+        [
+          26.305639266967773,
+          21.09169578552246,
+          20.19530487060547,
+          19.83710289001465,
+          26.305644989013672,
+          27.75373077392578,
+          26.57916831970215
+        ],
+        [
+          25.831371307373047,
+          21.241962432861328,
+          19.82036781311035,
+          19.919214248657227,
+          25.831375122070312,
+          26.99945831298828,
+          25.785232543945312
+        ],
+        [
+          26.394611358642578,
+          21.86525535583496,
+          20.699588775634766,
+          20.364303588867188,
+          26.394611358642578,
+          27.4956111907959,
+          26.462724685668945
+        ]
+      ]
+    },
+    "P_label|safe|v3HZHgZfU6M": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle moves smoothly while nearby actors behave predictably.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as traffic compresses rapidly and the gap closes to a dangerous margin before recovery.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a rear-end collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          28.2631778717041,
+          24.31643295288086,
+          23.63210105895996,
+          21.70405387878418,
+          28.26317596435547,
+          28.05099105834961,
+          28.40896224975586
+        ],
+        [
+          28.34490203857422,
+          24.154651641845703,
+          23.744234085083008,
+          22.032062530517578,
+          28.344905853271484,
+          28.50714874267578,
+          28.72304344177246
+        ],
+        [
+          28.344831466674805,
+          24.341259002685547,
+          24.53406524658203,
+          23.202247619628906,
+          28.344831466674805,
+          28.308082580566406,
+          28.52318572998047
+        ],
+        [
+          28.583139419555664,
+          23.849029541015625,
+          24.478897094726562,
+          22.954097747802734,
+          28.583139419555664,
+          28.560176849365234,
+          28.74666976928711
+        ],
+        [
+          27.826875686645508,
+          23.650672912597656,
+          23.43407440185547,
+          22.25359344482422,
+          27.826881408691406,
+          28.209623336791992,
+          27.95366668701172
+        ],
+        [
+          29.258298873901367,
+          23.2788028717041,
+          23.99606704711914,
+          22.501245498657227,
+          29.258298873901367,
+          29.723865509033203,
+          29.370195388793945
+        ],
+        [
+          31.720340728759766,
+          23.327592849731445,
+          25.415760040283203,
+          23.982467651367188,
+          31.7203369140625,
+          32.48398971557617,
+          32.33088684082031
+        ],
+        [
+          30.663105010986328,
+          22.287010192871094,
+          22.64420509338379,
+          21.46503257751465,
+          30.663108825683594,
+          31.530689239501953,
+          30.854686737060547
+        ]
+      ]
+    },
+    "P_label|safe|w6ZUtZ3yYeA": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a sudden cut-in forces a sharp brake and evasive steering correction.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a side-impact collision develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          28.428739547729492,
+          22.843629837036133,
+          23.04134750366211,
+          22.33679962158203,
+          28.42874526977539,
+          27.89225196838379,
+          27.352312088012695
+        ],
+        [
+          28.105140686035156,
+          22.67302703857422,
+          22.551992416381836,
+          22.147884368896484,
+          28.105133056640625,
+          27.409870147705078,
+          26.928646087646484
+        ],
+        [
+          28.66570281982422,
+          22.241188049316406,
+          22.673187255859375,
+          22.129093170166016,
+          28.66570281982422,
+          28.25789451599121,
+          27.46996307373047
+        ],
+        [
+          28.35274314880371,
+          22.866708755493164,
+          23.16187858581543,
+          22.542116165161133,
+          28.352741241455078,
+          27.872467041015625,
+          27.203163146972656
+        ],
+        [
+          28.620010375976562,
+          23.044084548950195,
+          23.47624969482422,
+          22.834461212158203,
+          28.620010375976562,
+          28.215360641479492,
+          27.51651382446289
+        ],
+        [
+          28.671466827392578,
+          22.652921676635742,
+          22.61092758178711,
+          22.312990188598633,
+          28.671466827392578,
+          27.86070442199707,
+          27.472030639648438
+        ],
+        [
+          28.294509887695312,
+          22.94828224182129,
+          23.77585220336914,
+          22.987356185913086,
+          28.294509887695312,
+          27.655988693237305,
+          27.153608322143555
+        ],
+        [
+          28.375377655029297,
+          23.114791870117188,
+          23.866119384765625,
+          23.21664047241211,
+          28.375381469726562,
+          27.91503143310547,
+          27.357097625732422
+        ]
+      ]
+    },
+    "P_label|safe|xuXJVzOMu0I": {
+      "texts": {
+        "own": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "[0s: euroncap footage shows controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: Traffic remains orderly as the subject vehicle keeps a stable lane position and leaves generous spacing.] [4s: The scene resolves safely with no contact, no panic braking, and no hazardous conflict.]",
+        "prompt_near_crash": "[0s: euroncap footage begins from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: A hazardous interaction develops as a vehicle or road user intrudes into the path, creating a brief but severe conflict.] [4s: The participants recover at the last moment, producing a near-crash without visible impact.]",
+        "prompt_crash": "[0s: euroncap footage shows normal movement from controlled crash test view view in crash_and_safety_test, during daytime, under clear weather.] [2s: The conflict escalates rapidly and a multi-vehicle crash develops.] [4s: Contact becomes unavoidable, the impact is visible, and the scene ends in a confirmed crash event.]"
+      },
+      "frame_sims": [
+        [
+          32.443077087402344,
+          24.098182678222656,
+          24.835887908935547,
+          24.08003044128418,
+          32.443077087402344,
+          32.728538513183594,
+          31.349557876586914
+        ],
+        [
+          32.26612854003906,
+          24.42215347290039,
+          24.656295776367188,
+          23.313518524169922,
+          32.2661247253418,
+          32.39231872558594,
+          31.30207633972168
+        ],
+        [
+          30.96802520751953,
+          23.633718490600586,
+          23.605918884277344,
+          22.726242065429688,
+          30.968021392822266,
+          31.05975914001465,
+          29.90220832824707
+        ],
+        [
+          32.1126594543457,
+          24.287261962890625,
+          24.8377685546875,
+          24.00176239013672,
+          32.1126594543457,
+          32.51155471801758,
+          31.341594696044922
+        ],
+        [
+          31.97553253173828,
+          24.469181060791016,
+          24.464725494384766,
+          23.895835876464844,
+          31.975528717041016,
+          31.665050506591797,
+          31.052000045776367
+        ],
+        [
+          31.265974044799805,
+          23.518346786499023,
+          24.273046493530273,
+          23.790180206298828,
+          31.265974044799805,
+          31.250244140625,
+          30.543315887451172
+        ],
+        [
+          29.463459014892578,
+          22.12931251525879,
+          22.40052032470703,
+          21.873722076416016,
+          29.463459014892578,
+          29.490100860595703,
+          28.6865234375
+        ],
+        [
+          30.133920669555664,
+          22.764347076416016,
+          23.4384708404541,
+          23.120555877685547,
+          30.133920669555664,
+          30.281301498413086,
+          29.486236572265625
+        ]
+      ]
+    },
+    "P_scenario|crash|-2PbLgrSGfc": {
+      "texts": {
+        "own": "A grey sedan drives towards an intersection as a white car crosses its path from the left. The grey sedan fails to stop in time and strikes the side of the white car, crumpling its front bumper.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A grey sedan travels along a wide, paved road towards an intersection. A white car crosses the junction well in advance, allowing the grey sedan to maintain its course and speed smoothly.",
+        "prompt_near_crash": "A grey sedan approaches an intersection just as a white car suddenly enters the crossing from the left. The grey sedan brakes heavily, stopping just short of the white car to prevent an impact.",
+        "prompt_crash": "A grey sedan drives towards an intersection as a white car crosses its path from the left. The grey sedan fails to stop in time and strikes the side of the white car, crumpling its front bumper."
+      },
+      "frame_sims": [
+        [
+          26.007600784301758,
+          22.75952911376953,
+          23.461008071899414,
+          23.121826171875,
+          26.080286026000977,
+          26.769939422607422,
+          26.007600784301758
+        ],
+        [
+          23.901775360107422,
+          22.627532958984375,
+          22.879467010498047,
+          22.185380935668945,
+          24.18886375427246,
+          25.099760055541992,
+          23.90177345275879
+        ],
+        [
+          25.64798355102539,
+          23.127798080444336,
+          22.763309478759766,
+          22.614728927612305,
+          25.167095184326172,
+          26.513137817382812,
+          25.647977828979492
+        ],
+        [
+          28.150962829589844,
+          24.92106819152832,
+          28.364871978759766,
+          28.65828514099121,
+          25.36690902709961,
+          27.877300262451172,
+          28.150962829589844
+        ],
+        [
+          29.569202423095703,
+          24.367259979248047,
+          28.134281158447266,
+          28.41044044494629,
+          26.806476593017578,
+          29.175113677978516,
+          29.569202423095703
+        ],
+        [
+          28.757488250732422,
+          24.6807918548584,
+          28.11215591430664,
+          28.43899154663086,
+          26.171916961669922,
+          28.184772491455078,
+          28.75748634338379
+        ],
+        [
+          27.412792205810547,
+          24.94952964782715,
+          27.748363494873047,
+          28.21715545654297,
+          24.891597747802734,
+          27.452342987060547,
+          27.412790298461914
+        ],
+        [
+          27.842416763305664,
+          23.50705337524414,
+          27.332042694091797,
+          27.55731964111328,
+          25.561302185058594,
+          27.95346450805664,
+          27.84242057800293
+        ]
+      ]
+    },
+    "P_scenario|crash|NqiIYzetr6g": {
+      "texts": {
+        "own": "A white SUV collides heavily with a solid flat barrier. The severe impact crushes the front bumper, buckles the hood upward, and instantly deploys the interior airbags. The vehicle comes to an immediate halt against the wall.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives steadily along a paved surface toward a solid flat barrier. The vehicle decelerates smoothly, coming to a controlled halt well before reaching the wall. The front end remains completely intact.",
+        "prompt_near_crash": "A white SUV speeds toward a solid flat barrier, failing to slow down initially. At the last possible second, the vehicle brakes sharply, dipping its front end and stopping mere inches from the wall without making contact.",
+        "prompt_crash": "A white SUV collides heavily with a solid flat barrier. The severe impact crushes the front bumper, buckles the hood upward, and instantly deploys the interior airbags. The vehicle comes to an immediate halt against the wall."
+      },
+      "frame_sims": [
+        [
+          34.69383239746094,
+          23.68964385986328,
+          23.204898834228516,
+          23.213300704956055,
+          33.926353454589844,
+          33.31850814819336,
+          34.69383239746094
+        ],
+        [
+          34.8928108215332,
+          23.754457473754883,
+          25.854475021362305,
+          26.024972915649414,
+          33.518306732177734,
+          33.295230865478516,
+          34.8928108215332
+        ],
+        [
+          34.808509826660156,
+          23.12460708618164,
+          26.118833541870117,
+          26.167430877685547,
+          33.50150680541992,
+          33.469547271728516,
+          34.80851364135742
+        ],
+        [
+          33.39455795288086,
+          23.544998168945312,
+          27.529537200927734,
+          27.397579193115234,
+          31.639522552490234,
+          31.714200973510742,
+          33.39454650878906
+        ],
+        [
+          33.27190399169922,
+          23.845947265625,
+          27.229421615600586,
+          27.334388732910156,
+          31.481998443603516,
+          31.297489166259766,
+          33.27190399169922
+        ],
+        [
+          33.42689895629883,
+          24.78145408630371,
+          28.020998001098633,
+          28.243515014648438,
+          31.510019302368164,
+          31.53742027282715,
+          33.42689895629883
+        ],
+        [
+          33.12971496582031,
+          25.032075881958008,
+          28.016382217407227,
+          28.493053436279297,
+          30.94705581665039,
+          31.197887420654297,
+          33.12971115112305
+        ],
+        [
+          33.940452575683594,
+          25.398311614990234,
+          28.463134765625,
+          28.85182762145996,
+          31.56978416442871,
+          31.85691261291504,
+          33.940452575683594
+        ]
+      ]
+    },
+    "P_scenario|crash|mMImGwGp_LY": {
+      "texts": {
+        "own": "Viewed from the side, a black SUV drives directly into a heavy barrier. The front end of the vehicle crumples violently upon impact, absorbing the force as the SUV comes to a sudden stop.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "Viewed from the side, a black SUV drives steadily along a paved road parallel to a heavy barrier. The vehicle maintains its course, smoothly passing the structure without any sudden movements.",
+        "prompt_near_crash": "Viewed from the side, a black SUV heads directly toward a heavy barrier. The vehicle brakes sharply, its nose dipping as it comes to an abrupt halt just inches away from the structure.",
+        "prompt_crash": "Viewed from the side, a black SUV drives directly into a heavy barrier. The front end of the vehicle crumples violently upon impact, absorbing the force as the SUV comes to a sudden stop."
+      },
+      "frame_sims": [
+        [
+          27.964744567871094,
+          23.49180793762207,
+          22.947492599487305,
+          22.688308715820312,
+          26.977739334106445,
+          25.615020751953125,
+          27.964744567871094
+        ],
+        [
+          28.467052459716797,
+          23.353466033935547,
+          22.644859313964844,
+          22.386804580688477,
+          28.157960891723633,
+          25.984966278076172,
+          28.467056274414062
+        ],
+        [
+          29.11697006225586,
+          23.008638381958008,
+          23.687341690063477,
+          23.97685432434082,
+          27.290407180786133,
+          26.489778518676758,
+          29.11696434020996
+        ],
+        [
+          31.26280975341797,
+          24.182876586914062,
+          27.478540420532227,
+          28.335678100585938,
+          27.548112869262695,
+          29.138084411621094,
+          31.2628116607666
+        ],
+        [
+          31.705547332763672,
+          23.939023971557617,
+          27.263986587524414,
+          27.469316482543945,
+          27.696401596069336,
+          28.541362762451172,
+          31.70553970336914
+        ],
+        [
+          30.653661727905273,
+          23.12746810913086,
+          26.49178123474121,
+          26.780292510986328,
+          26.84109115600586,
+          28.005937576293945,
+          30.653663635253906
+        ],
+        [
+          31.418907165527344,
+          24.485212326049805,
+          27.648550033569336,
+          27.862667083740234,
+          27.761369705200195,
+          28.92919158935547,
+          31.418907165527344
+        ],
+        [
+          31.48500633239746,
+          23.32387351989746,
+          26.646413803100586,
+          26.67664337158203,
+          28.556854248046875,
+          28.88025665283203,
+          31.485008239746094
+        ]
+      ]
+    },
+    "P_scenario|crash|v3HZHgZfU6M": {
+      "texts": {
+        "own": "A silver car strikes a red metal pole head-on. The severe impact shatters the windshield and buckles the roof, while the interior airbags deploy instantly around the driver.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A silver car drives smoothly along a paved surface, maintaining a steady trajectory. It passes a red metal pole with ample clearance, continuing forward without any disruption.",
+        "prompt_near_crash": "A silver car drifts dangerously close to a red metal pole on the paved surface. The vehicle brakes hard and swerves at the last second, avoiding an impact.",
+        "prompt_crash": "A silver car strikes a red metal pole head-on. The severe impact shatters the windshield and buckles the roof, while the interior airbags deploy instantly around the driver."
+      },
+      "frame_sims": [
+        [
+          23.03268814086914,
+          23.995525360107422,
+          22.013673782348633,
+          21.31503677368164,
+          31.747358322143555,
+          28.727834701538086,
+          23.032686233520508
+        ],
+        [
+          23.477537155151367,
+          24.02838706970215,
+          22.518672943115234,
+          22.110519409179688,
+          31.70680046081543,
+          29.71422004699707,
+          23.4775333404541
+        ],
+        [
+          30.019315719604492,
+          25.155895233154297,
+          27.57965660095215,
+          28.56685447692871,
+          26.74108123779297,
+          28.0699520111084,
+          30.019315719604492
+        ],
+        [
+          31.61573028564453,
+          24.412456512451172,
+          26.73112678527832,
+          28.29088020324707,
+          26.662689208984375,
+          28.822290420532227,
+          31.6157283782959
+        ],
+        [
+          31.88135528564453,
+          24.813562393188477,
+          26.916439056396484,
+          27.96335792541504,
+          26.96670913696289,
+          28.039836883544922,
+          31.8813533782959
+        ],
+        [
+          32.13666534423828,
+          24.921470642089844,
+          27.218908309936523,
+          28.352901458740234,
+          26.984745025634766,
+          28.71626091003418,
+          32.13666534423828
+        ],
+        [
+          31.897777557373047,
+          25.13870620727539,
+          27.25736427307129,
+          28.414005279541016,
+          27.248048782348633,
+          29.224306106567383,
+          31.897783279418945
+        ],
+        [
+          31.200908660888672,
+          25.19780731201172,
+          27.347457885742188,
+          28.520620346069336,
+          26.77134895324707,
+          28.43277359008789,
+          31.20090675354004
+        ]
+      ]
+    },
+    "P_scenario|near_crash|Wc8mgFUCLsM": {
+      "texts": {
+        "own": "A dark grey SUV begins a left turn at a tree-lined intersection, crossing directly into the path of an oncoming white car. Both vehicles brake sharply and swerve, coming to a sudden stop just inches apart.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A dark grey SUV approaches a paved intersection surrounded by trees, preparing to turn left. An oncoming white car passes straight through, allowing the SUV to complete its maneuver smoothly without any conflict.",
+        "prompt_near_crash": "A dark grey SUV begins a left turn at a tree-lined intersection, crossing directly into the path of an oncoming white car. Both vehicles brake sharply and swerve, coming to a sudden stop just inches apart.",
+        "prompt_crash": "A dark grey SUV attempts a left turn at an intersection and pulls into the path of an oncoming white car. The resulting heavy impact crushes the SUV's front end, shattering debris across the road and instantly deploying the interior airbags."
+      },
+      "frame_sims": [
+        [
+          27.043363571166992,
+          23.31883430480957,
+          22.102874755859375,
+          21.46072006225586,
+          26.65178680419922,
+          27.043359756469727,
+          29.97332763671875
+        ],
+        [
+          25.023006439208984,
+          23.266347885131836,
+          21.94302749633789,
+          21.556175231933594,
+          23.983610153198242,
+          25.023006439208984,
+          28.743003845214844
+        ],
+        [
+          28.447681427001953,
+          23.481359481811523,
+          25.47237205505371,
+          25.804615020751953,
+          26.338842391967773,
+          28.447681427001953,
+          29.52961540222168
+        ],
+        [
+          28.25408935546875,
+          22.602373123168945,
+          23.69401741027832,
+          24.390697479248047,
+          26.393672943115234,
+          28.254091262817383,
+          29.605514526367188
+        ],
+        [
+          28.600645065307617,
+          23.493873596191406,
+          24.938478469848633,
+          25.88658905029297,
+          26.04476547241211,
+          28.600645065307617,
+          29.422122955322266
+        ],
+        [
+          27.566102981567383,
+          22.71659278869629,
+          23.666072845458984,
+          24.67927360534668,
+          25.356447219848633,
+          27.566102981567383,
+          28.676298141479492
+        ],
+        [
+          28.803422927856445,
+          23.229108810424805,
+          24.736663818359375,
+          25.714094161987305,
+          26.239242553710938,
+          28.80342674255371,
+          29.455476760864258
+        ],
+        [
+          28.69445037841797,
+          22.662254333496094,
+          24.16349983215332,
+          24.81536865234375,
+          27.650964736938477,
+          28.69445037841797,
+          30.065303802490234
+        ]
+      ]
+    },
+    "P_scenario|near_crash|ZPv9uEcdrGI": {
+      "texts": {
+        "own": "A white SUV approaches an intersection on a wide, multi-lane road. Suddenly, another white car crosses into its path, forcing the SUV to brake hard and swerve. The vehicles narrowly miss each other, and the SUV regains control.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives smoothly along a wide, multi-lane paved road in clear daylight. It navigates straight through an intersection, maintaining a steady speed with no obstacles or hazards in its path.",
+        "prompt_near_crash": "A white SUV approaches an intersection on a wide, multi-lane road. Suddenly, another white car crosses into its path, forcing the SUV to brake hard and swerve. The vehicles narrowly miss each other, and the SUV regains control.",
+        "prompt_crash": "A white SUV travels along a paved road and violently strikes an obstacle head-on. The severe impact crushes the front bumper and hood, instantly shattering the windshield and sending a spray of broken glass flying into the air."
+      },
+      "frame_sims": [
+        [
+          32.691627502441406,
+          24.840402603149414,
+          25.943037033081055,
+          24.744951248168945,
+          32.21084976196289,
+          32.691627502441406,
+          27.740543365478516
+        ],
+        [
+          31.936996459960938,
+          23.373655319213867,
+          24.999910354614258,
+          24.097394943237305,
+          30.76245880126953,
+          31.936996459960938,
+          27.426088333129883
+        ],
+        [
+          30.85011863708496,
+          23.19829750061035,
+          24.938657760620117,
+          25.359493255615234,
+          28.209177017211914,
+          30.850120544433594,
+          27.64071273803711
+        ],
+        [
+          31.899690628051758,
+          24.518579483032227,
+          27.3253116607666,
+          27.489524841308594,
+          28.174877166748047,
+          31.899690628051758,
+          28.664470672607422
+        ],
+        [
+          32.013301849365234,
+          26.1683349609375,
+          28.941286087036133,
+          28.86550521850586,
+          29.714778900146484,
+          32.0133056640625,
+          30.80956268310547
+        ],
+        [
+          32.05861282348633,
+          26.125972747802734,
+          27.924697875976562,
+          27.50908660888672,
+          31.212085723876953,
+          32.05862045288086,
+          28.047203063964844
+        ],
+        [
+          31.66365623474121,
+          25.520706176757812,
+          27.926555633544922,
+          27.226055145263672,
+          30.503833770751953,
+          31.66366195678711,
+          27.704126358032227
+        ],
+        [
+          32.10194778442383,
+          25.633657455444336,
+          28.096336364746094,
+          27.213937759399414,
+          31.533336639404297,
+          32.10195541381836,
+          27.60605239868164
+        ]
+      ]
+    },
+    "P_scenario|near_crash|mMImGwGp_LY": {
+      "texts": {
+        "own": "Viewed from the side, a black SUV heads directly toward a heavy barrier. The vehicle brakes sharply, its nose dipping as it comes to an abrupt halt just inches away from the structure.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "Viewed from the side, a black SUV drives steadily along a paved road parallel to a heavy barrier. The vehicle maintains its course, smoothly passing the structure without any sudden movements.",
+        "prompt_near_crash": "Viewed from the side, a black SUV heads directly toward a heavy barrier. The vehicle brakes sharply, its nose dipping as it comes to an abrupt halt just inches away from the structure.",
+        "prompt_crash": "Viewed from the side, a black SUV drives directly into a heavy barrier. The front end of the vehicle crumples violently upon impact, absorbing the force as the SUV comes to a sudden stop."
+      },
+      "frame_sims": [
+        [
+          24.61240005493164,
+          21.531490325927734,
+          20.19498062133789,
+          20.263408660888672,
+          26.859336853027344,
+          24.612403869628906,
+          25.90447425842285
+        ],
+        [
+          22.68246078491211,
+          21.0662899017334,
+          19.54094886779785,
+          19.903888702392578,
+          25.23179054260254,
+          22.68246078491211,
+          24.131567001342773
+        ],
+        [
+          25.273223876953125,
+          22.136327743530273,
+          21.103960037231445,
+          21.32584571838379,
+          27.61940574645996,
+          25.273223876953125,
+          26.738080978393555
+        ],
+        [
+          27.95492935180664,
+          22.63768196105957,
+          22.339351654052734,
+          22.396963119506836,
+          29.144227981567383,
+          27.954933166503906,
+          29.680072784423828
+        ],
+        [
+          28.48244857788086,
+          23.423484802246094,
+          23.140594482421875,
+          23.030611038208008,
+          29.329910278320312,
+          28.48244857788086,
+          29.8851318359375
+        ],
+        [
+          27.018333435058594,
+          22.50581169128418,
+          22.058826446533203,
+          22.102249145507812,
+          28.634628295898438,
+          27.018333435058594,
+          29.084003448486328
+        ],
+        [
+          27.62037467956543,
+          22.85243797302246,
+          22.487747192382812,
+          22.63228988647461,
+          29.419845581054688,
+          27.620380401611328,
+          29.984771728515625
+        ],
+        [
+          27.9360408782959,
+          22.865697860717773,
+          22.380001068115234,
+          22.55069923400879,
+          29.50855827331543,
+          27.9360408782959,
+          30.355045318603516
+        ]
+      ]
+    },
+    "P_scenario|near_crash|v3HZHgZfU6M": {
+      "texts": {
+        "own": "A silver car drifts dangerously close to a red metal pole on the paved surface. The vehicle brakes hard and swerves at the last second, avoiding an impact.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A silver car drives smoothly along a paved surface, maintaining a steady trajectory. It passes a red metal pole with ample clearance, continuing forward without any disruption.",
+        "prompt_near_crash": "A silver car drifts dangerously close to a red metal pole on the paved surface. The vehicle brakes hard and swerves at the last second, avoiding an impact.",
+        "prompt_crash": "A silver car strikes a red metal pole head-on. The severe impact shatters the windshield and buckles the roof, while the interior airbags deploy instantly around the driver."
+      },
+      "frame_sims": [
+        [
+          30.54804229736328,
+          21.929229736328125,
+          22.5864200592041,
+          23.33390998840332,
+          28.796751022338867,
+          30.54804229736328,
+          23.213321685791016
+        ],
+        [
+          33.531410217285156,
+          23.54038429260254,
+          24.56804656982422,
+          24.70854377746582,
+          32.20310974121094,
+          33.53141403198242,
+          25.19611358642578
+        ],
+        [
+          32.509727478027344,
+          23.62309455871582,
+          25.57976531982422,
+          25.873031616210938,
+          30.85193634033203,
+          32.50973129272461,
+          25.765674591064453
+        ],
+        [
+          32.17159652709961,
+          22.47449493408203,
+          23.506759643554688,
+          23.29506492614746,
+          31.40243911743164,
+          32.17158889770508,
+          25.569421768188477
+        ],
+        [
+          31.283218383789062,
+          22.557449340820312,
+          23.60021209716797,
+          23.674339294433594,
+          30.546655654907227,
+          31.28321075439453,
+          23.917102813720703
+        ],
+        [
+          30.97611427307129,
+          23.170419692993164,
+          25.015830993652344,
+          24.624279022216797,
+          29.97218894958496,
+          30.97611427307129,
+          23.36087417602539
+        ],
+        [
+          29.883230209350586,
+          21.22308921813965,
+          22.081153869628906,
+          22.682401657104492,
+          28.610261917114258,
+          29.88323211669922,
+          23.29849624633789
+        ],
+        [
+          29.386693954467773,
+          24.22083854675293,
+          26.21772003173828,
+          25.610607147216797,
+          28.412052154541016,
+          29.386693954467773,
+          23.908767700195312
+        ]
+      ]
+    },
+    "P_scenario|near_crash|w6ZUtZ3yYeA": {
+      "texts": {
+        "own": "A white SUV travels quickly through a brightly lit indoor tunnel, heading straight for a solid wall. The vehicle brakes sharply at the last moment, its tires gripping the concrete floor. It comes to an abrupt halt just inches from the barrier, avoiding any impact.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives steadily through a brightly lit indoor tunnel. It maintains a straight path along the concrete floor. The vehicle comes to a smooth, controlled stop well before reaching the solid wall ahead.",
+        "prompt_near_crash": "A white SUV travels quickly through a brightly lit indoor tunnel, heading straight for a solid wall. The vehicle brakes sharply at the last moment, its tires gripping the concrete floor. It comes to an abrupt halt just inches from the barrier, avoiding any impact.",
+        "prompt_crash": "A white SUV travels through a brightly lit indoor tunnel and fails to stop as it approaches a solid wall. The vehicle collides heavily with the barrier, causing the hood to buckle and the front end to severely crumple. Debris scatters across the concrete floor from the force of the impact."
+      },
+      "frame_sims": [
+        [
+          32.06480026245117,
+          23.576017379760742,
+          23.446807861328125,
+          24.009660720825195,
+          34.60618209838867,
+          32.064788818359375,
+          31.697940826416016
+        ],
+        [
+          31.64781951904297,
+          23.218164443969727,
+          22.262598037719727,
+          23.125654220581055,
+          32.378700256347656,
+          31.64781951904297,
+          29.672536849975586
+        ],
+        [
+          32.01118087768555,
+          23.091161727905273,
+          22.58173179626465,
+          23.34644889831543,
+          32.91658020019531,
+          32.01118469238281,
+          30.17243194580078
+        ],
+        [
+          32.075164794921875,
+          21.71335792541504,
+          20.77103614807129,
+          20.86237144470215,
+          30.81881332397461,
+          32.075164794921875,
+          28.691646575927734
+        ],
+        [
+          31.56196403503418,
+          22.904590606689453,
+          22.609210968017578,
+          22.926002502441406,
+          30.545902252197266,
+          31.56196403503418,
+          30.584075927734375
+        ],
+        [
+          31.27303123474121,
+          21.44046974182129,
+          21.23602867126465,
+          21.409914016723633,
+          29.582368850708008,
+          31.273035049438477,
+          29.009517669677734
+        ],
+        [
+          30.65921401977539,
+          21.53642463684082,
+          21.000438690185547,
+          21.353044509887695,
+          28.84872055053711,
+          30.65921974182129,
+          29.167301177978516
+        ],
+        [
+          30.850536346435547,
+          21.128681182861328,
+          20.631174087524414,
+          20.923730850219727,
+          28.951459884643555,
+          30.850536346435547,
+          28.53584861755371
+        ]
+      ]
+    },
+    "P_scenario|safe|-2PbLgrSGfc": {
+      "texts": {
+        "own": "A grey sedan travels along a wide, paved road towards an intersection. A white car crosses the junction well in advance, allowing the grey sedan to maintain its course and speed smoothly.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A grey sedan travels along a wide, paved road towards an intersection. A white car crosses the junction well in advance, allowing the grey sedan to maintain its course and speed smoothly.",
+        "prompt_near_crash": "A grey sedan approaches an intersection just as a white car suddenly enters the crossing from the left. The grey sedan brakes heavily, stopping just short of the white car to prevent an impact.",
+        "prompt_crash": "A grey sedan drives towards an intersection as a white car crosses its path from the left. The grey sedan fails to stop in time and strikes the side of the white car, crumpling its front bumper."
+      },
+      "frame_sims": [
+        [
+          29.3912296295166,
+          25.480159759521484,
+          26.926782608032227,
+          26.44767189025879,
+          29.3912296295166,
+          30.312049865722656,
+          29.552061080932617
+        ],
+        [
+          29.61444854736328,
+          25.333145141601562,
+          26.854455947875977,
+          26.60463523864746,
+          29.614452362060547,
+          30.394357681274414,
+          29.234432220458984
+        ],
+        [
+          30.889266967773438,
+          25.155269622802734,
+          26.705970764160156,
+          26.418134689331055,
+          30.889263153076172,
+          31.790082931518555,
+          30.811447143554688
+        ],
+        [
+          30.460769653320312,
+          25.179710388183594,
+          26.842519760131836,
+          26.64687728881836,
+          30.460769653320312,
+          31.844688415527344,
+          30.821868896484375
+        ],
+        [
+          29.343568801879883,
+          25.731950759887695,
+          26.823741912841797,
+          27.159006118774414,
+          29.343563079833984,
+          31.30669593811035,
+          30.16273307800293
+        ],
+        [
+          28.756696701049805,
+          25.346351623535156,
+          26.695499420166016,
+          26.933265686035156,
+          28.756698608398438,
+          30.122482299804688,
+          29.486364364624023
+        ],
+        [
+          28.84885597229004,
+          26.0017032623291,
+          27.100797653198242,
+          27.36459732055664,
+          28.84885597229004,
+          30.107471466064453,
+          29.33742332458496
+        ],
+        [
+          29.01837921142578,
+          25.443321228027344,
+          26.93988037109375,
+          26.896425247192383,
+          29.01837921142578,
+          30.004358291625977,
+          29.071510314941406
+        ]
+      ]
+    },
+    "P_scenario|safe|2ykoE_FyWpI": {
+      "texts": {
+        "own": "A blue SUV drives along a paved road under a clear sky. A cyclist waits behind a parked black SUV on the right side of the road. The blue SUV maintains its speed and lane, passing the area smoothly without any conflict.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A blue SUV drives along a paved road under a clear sky. A cyclist waits behind a parked black SUV on the right side of the road. The blue SUV maintains its speed and lane, passing the area smoothly without any conflict.",
+        "prompt_near_crash": "A blue SUV travels down a paved road on a sunny day. Suddenly, a cyclist darts out into the lane from behind a parked black SUV on the right. The blue SUV brakes sharply, stopping just short of the cyclist to avoid an impact.",
+        "prompt_crash": "A blue SUV drives along a paved road under a clear sky. A cyclist unexpectedly rides out from behind a parked black SUV on the right, directly into the vehicle's path. The blue SUV cannot stop in time and collides with the cyclist."
+      },
+      "frame_sims": [
+        [
+          30.339305877685547,
+          25.558120727539062,
+          26.615419387817383,
+          26.483367919921875,
+          30.339309692382812,
+          28.88764762878418,
+          29.869604110717773
+        ],
+        [
+          28.248411178588867,
+          24.166118621826172,
+          25.029903411865234,
+          25.05708122253418,
+          28.248416900634766,
+          26.621347427368164,
+          27.63921546936035
+        ],
+        [
+          28.742664337158203,
+          24.661476135253906,
+          26.39642906188965,
+          26.148420333862305,
+          28.742664337158203,
+          27.933746337890625,
+          28.68962860107422
+        ],
+        [
+          28.44770622253418,
+          24.29987144470215,
+          25.847854614257812,
+          25.619497299194336,
+          28.447696685791016,
+          28.185813903808594,
+          28.440141677856445
+        ],
+        [
+          29.151391983032227,
+          24.084915161132812,
+          25.50307846069336,
+          25.04306983947754,
+          29.15138816833496,
+          29.144054412841797,
+          29.65944480895996
+        ],
+        [
+          26.250076293945312,
+          24.315839767456055,
+          26.111492156982422,
+          26.245054244995117,
+          26.250076293945312,
+          27.308977127075195,
+          27.816146850585938
+        ],
+        [
+          28.440078735351562,
+          24.864377975463867,
+          26.4066219329834,
+          25.897193908691406,
+          28.44007110595703,
+          29.56285858154297,
+          30.376832962036133
+        ],
+        [
+          29.035037994384766,
+          24.30423927307129,
+          25.10494041442871,
+          24.628671646118164,
+          29.035037994384766,
+          28.556543350219727,
+          29.24272346496582
+        ]
+      ]
+    },
+    "P_scenario|safe|NqiIYzetr6g": {
+      "texts": {
+        "own": "A white SUV drives steadily along a paved surface toward a solid flat barrier. The vehicle decelerates smoothly, coming to a controlled halt well before reaching the wall. The front end remains completely intact.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives steadily along a paved surface toward a solid flat barrier. The vehicle decelerates smoothly, coming to a controlled halt well before reaching the wall. The front end remains completely intact.",
+        "prompt_near_crash": "A white SUV speeds toward a solid flat barrier, failing to slow down initially. At the last possible second, the vehicle brakes sharply, dipping its front end and stopping mere inches from the wall without making contact.",
+        "prompt_crash": "A white SUV collides heavily with a solid flat barrier. The severe impact crushes the front bumper, buckles the hood upward, and instantly deploys the interior airbags. The vehicle comes to an immediate halt against the wall."
+      },
+      "frame_sims": [
+        [
+          27.5935115814209,
+          21.173351287841797,
+          19.682353973388672,
+          20.303466796875,
+          27.593507766723633,
+          28.01542854309082,
+          27.432554244995117
+        ],
+        [
+          27.305545806884766,
+          20.8422794342041,
+          19.347015380859375,
+          19.91336441040039,
+          27.30554962158203,
+          26.979005813598633,
+          25.677806854248047
+        ],
+        [
+          28.03586196899414,
+          20.632244110107422,
+          19.500532150268555,
+          19.58765411376953,
+          28.03586769104004,
+          28.02431297302246,
+          27.271848678588867
+        ],
+        [
+          31.19431495666504,
+          22.316877365112305,
+          21.350553512573242,
+          20.512475967407227,
+          31.19431495666504,
+          30.935283660888672,
+          29.365190505981445
+        ],
+        [
+          31.81554412841797,
+          22.402673721313477,
+          21.363019943237305,
+          20.90284538269043,
+          31.815540313720703,
+          31.74995231628418,
+          29.76871109008789
+        ],
+        [
+          30.31633186340332,
+          22.045330047607422,
+          20.048259735107422,
+          19.9727725982666,
+          30.31633758544922,
+          30.133319854736328,
+          28.61081886291504
+        ],
+        [
+          29.34260368347168,
+          21.8729190826416,
+          20.574520111083984,
+          19.769004821777344,
+          29.342599868774414,
+          29.28544807434082,
+          27.937374114990234
+        ],
+        [
+          27.95030975341797,
+          21.23523712158203,
+          19.145580291748047,
+          18.922189712524414,
+          27.95030975341797,
+          27.77018165588379,
+          27.592376708984375
+        ]
+      ]
+    },
+    "P_scenario|safe|TIxUylmJeh4": {
+      "texts": {
+        "own": "A grey SUV drives smoothly along a well-lit road, maintaining a steady pace. It keeps a wide distance from a blue truck ahead, continuing its journey without any sudden braking or steering changes.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A grey SUV drives smoothly along a well-lit road, maintaining a steady pace. It keeps a wide distance from a blue truck ahead, continuing its journey without any sudden braking or steering changes.",
+        "prompt_near_crash": "A grey SUV rapidly closes the distance to a stationary blue truck ahead. The SUV brakes sharply at the last second, coming to a sudden halt just inches away from the blue bumper without making contact.",
+        "prompt_crash": "A grey SUV forcefully collides with a stationary blue truck. The SUV's front end crumples severely, shattering the windshield and sending debris into the air as the interior airbags deploy instantly."
+      },
+      "frame_sims": [
+        [
+          32.99143981933594,
+          23.162181854248047,
+          22.5159854888916,
+          21.654062271118164,
+          32.9914436340332,
+          28.67072296142578,
+          24.146183013916016
+        ],
+        [
+          32.428462982177734,
+          22.62592315673828,
+          22.109233856201172,
+          20.863142013549805,
+          32.428466796875,
+          27.04142951965332,
+          22.212194442749023
+        ],
+        [
+          32.82150650024414,
+          22.56208038330078,
+          21.58873748779297,
+          20.593103408813477,
+          32.82149887084961,
+          27.426746368408203,
+          22.5459041595459
+        ],
+        [
+          33.45070266723633,
+          22.859527587890625,
+          22.413951873779297,
+          21.02634620666504,
+          33.45069885253906,
+          28.83844757080078,
+          24.499502182006836
+        ],
+        [
+          32.590396881103516,
+          23.722753524780273,
+          23.560710906982422,
+          22.234952926635742,
+          32.590396881103516,
+          28.529239654541016,
+          24.514793395996094
+        ],
+        [
+          33.37405776977539,
+          22.85468864440918,
+          22.586931228637695,
+          21.246578216552734,
+          33.37405776977539,
+          28.743043899536133,
+          23.961227416992188
+        ],
+        [
+          33.857017517089844,
+          23.109867095947266,
+          22.827238082885742,
+          21.332969665527344,
+          33.857025146484375,
+          30.176097869873047,
+          26.283185958862305
+        ],
+        [
+          33.16486358642578,
+          23.523025512695312,
+          22.909473419189453,
+          21.685747146606445,
+          33.16486358642578,
+          29.146284103393555,
+          24.512311935424805
+        ]
+      ]
+    },
+    "P_scenario|safe|Wc8mgFUCLsM": {
+      "texts": {
+        "own": "A dark grey SUV approaches a paved intersection surrounded by trees, preparing to turn left. An oncoming white car passes straight through, allowing the SUV to complete its maneuver smoothly without any conflict.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A dark grey SUV approaches a paved intersection surrounded by trees, preparing to turn left. An oncoming white car passes straight through, allowing the SUV to complete its maneuver smoothly without any conflict.",
+        "prompt_near_crash": "A dark grey SUV begins a left turn at a tree-lined intersection, crossing directly into the path of an oncoming white car. Both vehicles brake sharply and swerve, coming to a sudden stop just inches apart.",
+        "prompt_crash": "A dark grey SUV attempts a left turn at an intersection and pulls into the path of an oncoming white car. The resulting heavy impact crushes the SUV's front end, shattering debris across the road and instantly deploying the interior airbags."
+      },
+      "frame_sims": [
+        [
+          29.035520553588867,
+          23.0795841217041,
+          22.243175506591797,
+          21.296306610107422,
+          29.03551483154297,
+          28.364368438720703,
+          27.362834930419922
+        ],
+        [
+          29.010986328125,
+          22.400279998779297,
+          21.684268951416016,
+          22.238433837890625,
+          29.010984420776367,
+          28.751602172851562,
+          26.616928100585938
+        ],
+        [
+          29.719263076782227,
+          22.448986053466797,
+          22.806739807128906,
+          21.963369369506836,
+          29.719266891479492,
+          30.36191749572754,
+          28.475486755371094
+        ],
+        [
+          27.82459259033203,
+          22.903562545776367,
+          21.554306030273438,
+          20.95855712890625,
+          27.824586868286133,
+          28.667953491210938,
+          27.0450382232666
+        ],
+        [
+          30.825653076171875,
+          23.070547103881836,
+          23.217206954956055,
+          22.183349609375,
+          30.82565689086914,
+          30.062776565551758,
+          30.814472198486328
+        ],
+        [
+          31.323497772216797,
+          22.649078369140625,
+          23.63199806213379,
+          21.501367568969727,
+          31.323495864868164,
+          29.945457458496094,
+          31.32412338256836
+        ],
+        [
+          32.786109924316406,
+          21.87442398071289,
+          21.790536880493164,
+          19.945425033569336,
+          32.78610610961914,
+          32.03959655761719,
+          30.017501831054688
+        ],
+        [
+          31.46994972229004,
+          23.42328643798828,
+          24.02239227294922,
+          21.80606460571289,
+          31.46994972229004,
+          31.99448013305664,
+          29.453319549560547
+        ]
+      ]
+    },
+    "P_scenario|safe|ZPv9uEcdrGI": {
+      "texts": {
+        "own": "A white SUV drives smoothly along a wide, multi-lane paved road in clear daylight. It navigates straight through an intersection, maintaining a steady speed with no obstacles or hazards in its path.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives smoothly along a wide, multi-lane paved road in clear daylight. It navigates straight through an intersection, maintaining a steady speed with no obstacles or hazards in its path.",
+        "prompt_near_crash": "A white SUV approaches an intersection on a wide, multi-lane road. Suddenly, another white car crosses into its path, forcing the SUV to brake hard and swerve. The vehicles narrowly miss each other, and the SUV regains control.",
+        "prompt_crash": "A white SUV travels along a paved road and violently strikes an obstacle head-on. The severe impact crushes the front bumper and hood, instantly shattering the windshield and sending a spray of broken glass flying into the air."
+      },
+      "frame_sims": [
+        [
+          30.426889419555664,
+          23.119470596313477,
+          22.058509826660156,
+          20.348464965820312,
+          30.426898956298828,
+          27.460357666015625,
+          28.17230224609375
+        ],
+        [
+          30.356821060180664,
+          23.322986602783203,
+          22.22087860107422,
+          20.264339447021484,
+          30.35681915283203,
+          27.332988739013672,
+          28.397066116333008
+        ],
+        [
+          32.28630447387695,
+          24.314659118652344,
+          22.017061233520508,
+          20.49173355102539,
+          32.28630447387695,
+          30.143959045410156,
+          28.745376586914062
+        ],
+        [
+          35.01226043701172,
+          25.963842391967773,
+          27.37383460998535,
+          24.825529098510742,
+          35.01226806640625,
+          33.46676254272461,
+          29.121410369873047
+        ],
+        [
+          33.265228271484375,
+          24.86563491821289,
+          25.916099548339844,
+          24.011930465698242,
+          33.26523208618164,
+          30.575550079345703,
+          27.982402801513672
+        ],
+        [
+          32.91618347167969,
+          23.536476135253906,
+          24.110572814941406,
+          22.5341854095459,
+          32.91618347167969,
+          28.31598472595215,
+          26.51129722595215
+        ],
+        [
+          34.630550384521484,
+          24.282163619995117,
+          25.279081344604492,
+          23.768022537231445,
+          34.630550384521484,
+          30.937931060791016,
+          27.580642700195312
+        ],
+        [
+          33.09597396850586,
+          24.425321578979492,
+          24.73896026611328,
+          23.5810546875,
+          33.09597396850586,
+          29.803735733032227,
+          26.91669464111328
+        ]
+      ]
+    },
+    "P_scenario|safe|mMImGwGp_LY": {
+      "texts": {
+        "own": "Viewed from the side, a black SUV drives steadily along a paved road parallel to a heavy barrier. The vehicle maintains its course, smoothly passing the structure without any sudden movements.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "Viewed from the side, a black SUV drives steadily along a paved road parallel to a heavy barrier. The vehicle maintains its course, smoothly passing the structure without any sudden movements.",
+        "prompt_near_crash": "Viewed from the side, a black SUV heads directly toward a heavy barrier. The vehicle brakes sharply, its nose dipping as it comes to an abrupt halt just inches away from the structure.",
+        "prompt_crash": "Viewed from the side, a black SUV drives directly into a heavy barrier. The front end of the vehicle crumples violently upon impact, absorbing the force as the SUV comes to a sudden stop."
+      },
+      "frame_sims": [
+        [
+          30.00234031677246,
+          22.512723922729492,
+          22.27044105529785,
+          22.04387855529785,
+          30.002344131469727,
+          28.191003799438477,
+          29.64877700805664
+        ],
+        [
+          31.147979736328125,
+          22.633272171020508,
+          22.759965896606445,
+          22.469684600830078,
+          31.147977828979492,
+          28.453075408935547,
+          29.782039642333984
+        ],
+        [
+          32.198150634765625,
+          23.181438446044922,
+          23.843740463256836,
+          23.314104080200195,
+          32.198150634765625,
+          29.53525733947754,
+          30.971643447875977
+        ],
+        [
+          32.01830291748047,
+          23.75554656982422,
+          25.070730209350586,
+          25.125986099243164,
+          32.018310546875,
+          30.29944610595703,
+          31.637460708618164
+        ],
+        [
+          31.52086067199707,
+          23.785207748413086,
+          24.873170852661133,
+          24.295888900756836,
+          31.520858764648438,
+          29.64847755432129,
+          31.2807674407959
+        ],
+        [
+          32.14805603027344,
+          24.099401473999023,
+          25.311172485351562,
+          24.629730224609375,
+          32.14805221557617,
+          29.877376556396484,
+          31.31854820251465
+        ],
+        [
+          33.632423400878906,
+          24.714500427246094,
+          26.538515090942383,
+          26.074514389038086,
+          33.63241958618164,
+          31.7384033203125,
+          33.397830963134766
+        ],
+        [
+          32.53023147583008,
+          24.189380645751953,
+          25.31253433227539,
+          24.7209529876709,
+          32.530235290527344,
+          30.06415367126465,
+          31.56192970275879
+        ]
+      ]
+    },
+    "P_scenario|safe|v3HZHgZfU6M": {
+      "texts": {
+        "own": "A silver car drives smoothly along a paved surface, maintaining a steady trajectory. It passes a red metal pole with ample clearance, continuing forward without any disruption.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A silver car drives smoothly along a paved surface, maintaining a steady trajectory. It passes a red metal pole with ample clearance, continuing forward without any disruption.",
+        "prompt_near_crash": "A silver car drifts dangerously close to a red metal pole on the paved surface. The vehicle brakes hard and swerves at the last second, avoiding an impact.",
+        "prompt_crash": "A silver car strikes a red metal pole head-on. The severe impact shatters the windshield and buckles the roof, while the interior airbags deploy instantly around the driver."
+      },
+      "frame_sims": [
+        [
+          27.157779693603516,
+          21.412599563598633,
+          20.355133056640625,
+          19.439353942871094,
+          27.157779693603516,
+          23.13126564025879,
+          21.945127487182617
+        ],
+        [
+          26.437959671020508,
+          20.597545623779297,
+          18.898893356323242,
+          18.567054748535156,
+          26.437965393066406,
+          21.910682678222656,
+          19.649362564086914
+        ],
+        [
+          26.84902572631836,
+          21.01029396057129,
+          19.136316299438477,
+          19.32598114013672,
+          26.849021911621094,
+          23.08307647705078,
+          20.87688446044922
+        ],
+        [
+          32.49058532714844,
+          22.599807739257812,
+          22.128713607788086,
+          21.437124252319336,
+          32.49058532714844,
+          30.57111167907715,
+          23.9660701751709
+        ],
+        [
+          29.932048797607422,
+          21.39759063720703,
+          20.772916793823242,
+          20.472536087036133,
+          29.932052612304688,
+          27.111799240112305,
+          23.022724151611328
+        ],
+        [
+          31.238258361816406,
+          22.14069938659668,
+          22.43452262878418,
+          21.56302261352539,
+          31.238264083862305,
+          28.904884338378906,
+          23.434120178222656
+        ],
+        [
+          28.752044677734375,
+          21.117835998535156,
+          20.774547576904297,
+          20.047035217285156,
+          28.752046585083008,
+          25.93809700012207,
+          22.833215713500977
+        ],
+        [
+          26.878620147705078,
+          20.814638137817383,
+          20.150920867919922,
+          19.132919311523438,
+          26.878625869750977,
+          23.28433609008789,
+          21.934465408325195
+        ]
+      ]
+    },
+    "P_scenario|safe|w6ZUtZ3yYeA": {
+      "texts": {
+        "own": "A white SUV drives steadily through a brightly lit indoor tunnel. It maintains a straight path along the concrete floor. The vehicle comes to a smooth, controlled stop well before reaching the solid wall ahead.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A white SUV drives steadily through a brightly lit indoor tunnel. It maintains a straight path along the concrete floor. The vehicle comes to a smooth, controlled stop well before reaching the solid wall ahead.",
+        "prompt_near_crash": "A white SUV travels quickly through a brightly lit indoor tunnel, heading straight for a solid wall. The vehicle brakes sharply at the last moment, its tires gripping the concrete floor. It comes to an abrupt halt just inches from the barrier, avoiding any impact.",
+        "prompt_crash": "A white SUV travels through a brightly lit indoor tunnel and fails to stop as it approaches a solid wall. The vehicle collides heavily with the barrier, causing the hood to buckle and the front end to severely crumple. Debris scatters across the concrete floor from the force of the impact."
+      },
+      "frame_sims": [
+        [
+          33.52684783935547,
+          23.3336238861084,
+          21.978403091430664,
+          21.466398239135742,
+          33.52684783935547,
+          32.94003677368164,
+          30.228910446166992
+        ],
+        [
+          33.56180953979492,
+          23.232311248779297,
+          21.698591232299805,
+          21.209726333618164,
+          33.56180953979492,
+          33.05290985107422,
+          30.18912696838379
+        ],
+        [
+          33.47311019897461,
+          23.443626403808594,
+          21.78620719909668,
+          21.146408081054688,
+          33.473114013671875,
+          32.84246826171875,
+          30.003694534301758
+        ],
+        [
+          33.7493782043457,
+          22.845447540283203,
+          21.611774444580078,
+          21.070343017578125,
+          33.74938201904297,
+          32.971458435058594,
+          29.764917373657227
+        ],
+        [
+          33.644901275634766,
+          23.318376541137695,
+          22.251874923706055,
+          21.8580322265625,
+          33.644901275634766,
+          32.662540435791016,
+          29.63913917541504
+        ],
+        [
+          33.70922088623047,
+          24.334291458129883,
+          22.917409896850586,
+          22.631826400756836,
+          33.70922088623047,
+          32.66539001464844,
+          30.493085861206055
+        ],
+        [
+          33.96417999267578,
+          23.434757232666016,
+          21.83977508544922,
+          21.77296257019043,
+          33.964176177978516,
+          33.25417709350586,
+          30.379146575927734
+        ],
+        [
+          35.543418884277344,
+          23.656261444091797,
+          22.24925422668457,
+          21.700843811035156,
+          35.543418884277344,
+          34.07919692993164,
+          31.70039939880371
+        ]
+      ]
+    },
+    "P_scenario|safe|xuXJVzOMu0I": {
+      "texts": {
+        "own": "A black SUV drives smoothly across a wide paved area under a cloudy sky. A cyclist crosses far ahead, and the vehicle maintains a steady speed, continuing its path without any disruption.",
+        "tok_safe": "safe driving",
+        "tok_near_crash": "a near crash",
+        "tok_crash": "a car crash",
+        "prompt_safe": "A black SUV drives smoothly across a wide paved area under a cloudy sky. A cyclist crosses far ahead, and the vehicle maintains a steady speed, continuing its path without any disruption.",
+        "prompt_near_crash": "A black SUV travels across a wide paved area when a cyclist suddenly crosses directly in its path. The vehicle brakes sharply, dipping its front end and coming to a halt just short of the rider.",
+        "prompt_crash": "A black SUV loses control on a wide paved area and collides heavily with a bright yellow barrier. The vehicle's front end crumples severely, the windshield shatters, and the interior airbags deploy instantly."
+      },
+      "frame_sims": [
+        [
+          32.619873046875,
+          24.50426483154297,
+          25.094764709472656,
+          24.49324607849121,
+          32.619873046875,
+          28.57085418701172,
+          26.848407745361328
+        ],
+        [
+          36.602149963378906,
+          24.83377456665039,
+          25.56914710998535,
+          24.09308624267578,
+          36.602142333984375,
+          32.9796028137207,
+          26.18502426147461
+        ],
+        [
+          31.849987030029297,
+          24.10525894165039,
+          23.962570190429688,
+          23.317934036254883,
+          31.849987030029297,
+          28.927520751953125,
+          27.562564849853516
+        ],
+        [
+          35.06489562988281,
+          23.982200622558594,
+          23.78510856628418,
+          23.226669311523438,
+          35.06489944458008,
+          31.61827850341797,
+          25.303436279296875
+        ],
+        [
+          38.01186752319336,
+          24.59867286682129,
+          25.452739715576172,
+          24.00149917602539,
+          38.01185989379883,
+          33.90319061279297,
+          26.49175262451172
+        ],
+        [
+          25.931825637817383,
+          21.39600372314453,
+          23.773523330688477,
+          24.219179153442383,
+          25.93182373046875,
+          22.311176300048828,
+          23.03108787536621
+        ],
+        [
+          32.560699462890625,
+          21.299283981323242,
+          23.170291900634766,
+          21.050861358642578,
+          32.56070327758789,
+          28.076244354248047,
+          20.46448516845703
+        ],
+        [
+          36.959224700927734,
+          24.34674835205078,
+          24.525466918945312,
+          23.478775024414062,
+          36.959228515625,
+          31.974489212036133,
+          23.874740600585938
+        ]
+      ]
+    }
+  }
+}
