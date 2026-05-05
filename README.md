@@ -16,6 +16,32 @@ DatasetSizeSourcePurpose**Crash-1500**1500 videosInternalBaseline dataset**Euro 
 
 ---
 
+## 🎬 Video Downloads (GitHub Release)
+
+The raw / generated MP4 files used in Stage 4 and Stage 5 are **not checked into the git tree** (they would bloat every clone). They are published as assets on the `v1.0-videos` release:
+
+> [**Release page → v1.0-videos**](https://github.com/TIANGE2211123/clipscore-experiment/releases/tag/v1.0-videos)
+
+| Archive | Direct download | # videos | Size | Contents |
+|---|---|---|---|---|
+| `euroncap-real-videos.zip` | [download](https://github.com/TIANGE2211123/clipscore-experiment/releases/download/v1.0-videos/euroncap-real-videos.zip) | 10 | 107 MB | Euro NCAP YouTube clips — the evaluation set CLIPScore is computed on |
+| `generated-P_label.zip` | [download](https://github.com/TIANGE2211123/clipscore-experiment/releases/download/v1.0-videos/generated-P_label.zip) | 28 | 85 MB | CogVideoX-2B outputs — label-anchored prompt (`safe` / `near_crash` / `crash`) |
+| `generated-P_scenario.zip` | [download](https://github.com/TIANGE2211123/clipscore-experiment/releases/download/v1.0-videos/generated-P_scenario.zip) | 19 | 79 MB | CogVideoX-2B outputs — Gemini scenario-level prompt |
+
+After unzipping, drop the folders back under `output/stage4/`:
+
+```
+output/stage4/
+├── videos/             ← euroncap-real-videos.zip
+└── generated/
+    ├── P_label/        ← generated-P_label.zip
+    └── P_scenario/     ← generated-P_scenario.zip
+```
+
+CogVideoX-2B default output format: 720 × 480, ~24 fps, ~4 s. See `scripts/stage4/generate_all_videos.sh` and `output/stage4/generation.log` for the exact command line and per-sample failure reasons.
+
+---
+
 ## 🚀 Quick Start
 
 ### Installation
