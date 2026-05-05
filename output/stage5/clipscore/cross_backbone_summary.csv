@@ -1,0 +1,4 @@
+backbone,label,n,mean,std
+siglip_b16,safe,10,-3.2464,2.5579
+siglip_b16,near-crash,10,-4.4684,1.4580
+siglip_b16,crash,10,-3.6258,1.1188

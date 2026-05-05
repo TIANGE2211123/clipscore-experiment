@@ -73,6 +73,8 @@ temp/
 !output/stage3/per_video_table.csv
 !output/stage4/prompts/prompt_sets.csv
 !output/stage4/clipscore/per_video.csv
+!output/stage5/analysis/*.csv
+!output/stage5/clipscore/cross_backbone_summary.csv
 
 # Keep specific directories structure
 !test_data/

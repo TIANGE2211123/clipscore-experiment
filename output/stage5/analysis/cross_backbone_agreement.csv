@@ -1,0 +1,4 @@
+backbone_a,backbone_b,n_videos,pearson_r_scores,p,argmax_agree
+clip_vitb32,clip_vitl14,10,0.7280,5.1330e-06,7/10
+clip_vitb32,siglip_b16,10,-0.0090,9.6226e-01,2/10
+clip_vitl14,siglip_b16,10,-0.0500,7.9286e-01,5/10
